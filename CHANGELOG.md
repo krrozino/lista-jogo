@@ -4,6 +4,13 @@ Todas as entregas importantes serão registradas aqui e publicadas como **pre-re
 
 ## [Não lançado]
 
+## [0.4.1-beta.3] — autenticação pelo mesmo domínio (17/11/2026)
+
+- Neon Auth acessado por `/api/auth/*` via proxy HTTPS configurado na Vercel, reduzindo falhas de cookies entre domínios.
+- Preservado o mecanismo de autenticação verificada pelo servidor e os avisos introduzidos na beta.2.
+- Requer homologação real de cadastro, sessão persistente, perfil e ranking antes de ser marcado como concluído.
+
+
 ### Ajustes previstos
 - Seguir validando autenticação, proteção de partidas e cadastro sem exigir confirmação de e-mail ainda não ativada.
 

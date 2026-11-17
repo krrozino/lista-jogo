@@ -1,6 +1,6 @@
 import { createAuthClient } from '@neondatabase/auth';
 const AUTH_URL='https://ep-restless-pond-bdvrz7ad.neonauth.c-8.us-east-2.aws.neon.tech/lista_jogo/auth';
-const auth=createAuthClient(AUTH_URL);
+const auth=createAuthClient(new URL('/api/auth',window.location.origin).toString());
 const $=id=>document.getElementById(id);
 let currentUser=null,signup=false,roundRequest=null,roundInfo=null;
 const onlineStatus=$('onlineStatus'),accountState=$('accountState');
