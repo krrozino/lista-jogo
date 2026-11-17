@@ -62,7 +62,7 @@ $('accountForm').addEventListener('submit',async event=>{event.preventDefault();
   unwrap(await auth.signIn.email({email,password}));$('accountPass').value='';
   const ready=await refreshAccount();
   if(ready)feedback('success','Login realizado com sucesso! Bem-vindo de volta.');
-  else feedback('info','Login aceito, mas não foi possível concluir a consulta do perfil. Tente novamente.');
+  // refreshAccount já exibiu o motivo específico do erro; não substitua o aviso.
  }
  }catch(error){feedback('error',friendlyError(error))}
  finally{btn.disabled=false;const m=$('accountForm').dataset.mode;btn.textContent=m==='nickname'?'Salvar apelido':m==='signup'?'Criar conta':'Entrar'}});
