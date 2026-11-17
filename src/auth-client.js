@@ -20,7 +20,7 @@ function friendlyError(error){const message=String(error?.message||error||'Erro 
 const unwrap=result=>{if(result?.error)throw new Error(result.error.message||'Falha no serviço de autenticação.');return result?.data??result};
 async function getUser(){const s=unwrap(await auth.getSession());currentUser=s?.user||null;return currentUser}
 async function token(){const jwt=await auth.getJWTToken?.();if(!jwt)throw new Error('Faça login antes de jogar no ranking.');return jwt}
-async function api(path,method='GET',body=null,protectedRequest=false){const h={'Content-Type':'application/json'};if(protectedRequest)h.Authorization='Bearer '+await token();const response=await fetch('/api/'+path,{method,headers:h,body:body===null?undefined:JSON.stringify(body),cache:'no-store'});const data=await response.json().catch(()=>({}));if(!response.ok)throw new Error(data.error||'Falha na API ('+response.status+')');return data}
+async function api(path,method='GET',body=null,protectedRequest=false){const h={'Content-Type':'application/json'};if(protectedRequest){/* Sessão Neon autenticada pelo servidor via cookie HttpOnly de mesmo domínio. */}const response=await fetch('/api/'+path,{method,headers:h,body:body===null?undefined:JSON.stringify(body),cache:'no-store',credentials:'same-origin'});const data=await response.json().catch(()=>({}));if(!response.ok)throw new Error(data.error||'Falha na API ('+response.status+')');return data}
 const btns=['onlineBtn','rankCall','rankView'];for(const id of btns)$(id)?.addEventListener('click',()=>open('leaderboard'));
 $('onlineClose').addEventListener('click',()=>$('onlineDialog').close());
 $('onlineDialog').addEventListener('click',e=>{if(e.target===$('onlineDialog'))$('onlineDialog').close()});

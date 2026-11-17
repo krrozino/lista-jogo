@@ -5,11 +5,35 @@ const catalog=new Map(topics.map(t=>[t.id,t]));
 const jwksURL=process.env.NEON_AUTH_JWKS_URL;
 let jwks;
 function db(){if(!process.env.DATABASE_URL)throw Object.assign(new Error('Banco não configurado'),{status:503});return neon(process.env.DATABASE_URL)}
-async function auth(req){const h=req.headers.authorization||'';const token=h.startsWith('Bearer ')?h.slice(7):'';if(!token)throw Object.assign(new Error('Entre na sua conta.'),{status:401});if(!jwksURL)throw Object.assign(new Error('Autenticação indisponível.'),{status:503});
- const {createRemoteJWKSet,jwtVerify}=await import('jose');if(!jwks)jwks=createRemoteJWKSet(new URL(jwksURL));
- let payload;try{({payload}=await jwtVerify(token,jwks,{algorithms:['ES256','RS256','EdDSA'],clockTolerance:5}));}catch{throw Object.assign(new Error('Sessão inválida ou expirada.'),{status:401})}
- if(!/^[0-9a-f-]{36}$/i.test(payload.sub||''))throw Object.assign(new Error('Identidade inválida.'),{status:401});
- const sql=db();const found=await sql`SELECT id FROM neon_auth."user" WHERE id=${payload.sub}::uuid AND coalesce(banned,false)=false LIMIT 1`;if(!found.length)throw Object.assign(new Error('Conta não encontrada.'),{status:401});return payload.sub;
+async function auth(req){
+ if(req.method==='POST'){
+  const origin=req.headers.origin||'',host=req.headers.host||'';
+  if(origin){let parsed;try{parsed=new URL(origin)}catch{throw Object.assign(new Error('Origem não autorizada.'),{status:403})}
+   if(parsed.protocol!=='https:'||parsed.host!==host)throw Object.assign(new Error('Origem não autorizada.'),{status:403});}
+  if(req.headers['sec-fetch-site']==='cross-site')throw Object.assign(new Error('Origem não autorizada.'),{status:403});
+ }
+ const rawCookie=String(req.headers.cookie||'');
+ const safeCookies=rawCookie.split(';').map(s=>s.trim()).filter(s=>/^(?:__Secure-)?(?:neon-auth|better-auth)\./i.test(s)).join('; ');
+ let uid=null;
+ if(safeCookies){
+  try {
+   const sessionResponse=await fetch('https://ep-restless-pond-bdvrz7ad.neonauth.c-8.us-east-2.aws.neon.tech/lista_jogo/auth/get-session',
+    {method:'GET',headers:{cookie:safeCookies},redirect:'manual',signal:AbortSignal.timeout(10000),cache:'no-store'});
+   if(sessionResponse.ok){const session=await sessionResponse.json();if(typeof session?.user?.id==='string')uid=session.user.id;}
+  }catch(err){console.warn('Neon Auth: sessão indisponível.',err?.name||'error')}
+ }
+ if(!uid){
+  const h=req.headers.authorization||'',token=h.startsWith('Bearer ')?h.slice(7):'';
+  if(!token)throw Object.assign(new Error('Entre na sua conta.'),{status:401});
+  if(!jwksURL)throw Object.assign(new Error('Autenticação indisponível.'),{status:503});
+  const {createRemoteJWKSet,jwtVerify}=await import('jose');if(!jwks)jwks=createRemoteJWKSet(new URL(jwksURL));
+  try{const result=await jwtVerify(token,jwks,{algorithms:['ES256','RS256','EdDSA'],clockTolerance:5});uid=result.payload.sub;}
+  catch{throw Object.assign(new Error('Sessão inválida ou expirada.'),{status:401})}
+ }
+ if(!/^[0-9a-f-]{36}$/i.test(uid||''))throw Object.assign(new Error('Identidade inválida.'),{status:401});
+ const sql=db(),found=await sql`SELECT id FROM neon_auth."user" WHERE id=${uid}::uuid AND coalesce(banned,false)=false LIMIT 1`;
+ if(!found.length)throw Object.assign(new Error('Conta não encontrada.'),{status:401});
+ return uid;
 }
 function respond(res,code,data){res.statusCode=code;res.setHeader('Content-Type','application/json; charset=utf-8');res.setHeader('Cache-Control','no-store');res.end(JSON.stringify(data))}
 function error(res,e){const code=Number.isInteger(e.status)?e.status:500;if(code===500)console.error('LISTA API:',e?.message||e);respond(res,code,{error:code===500?'Erro interno do servidor.':e.message})}

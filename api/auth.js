@@ -25,7 +25,7 @@ module.exports = async (req,res) => {
   res.statusCode=upstream.status;
   for(const [key,value] of upstream.headers){if(!SKIP_RESPONSE.has(key.toLowerCase()))res.setHeader(key,value)}
   const cookies=upstream.headers.getSetCookie();
-  if(cookies.length)res.setHeader('set-cookie',cookies.map(cookie=>cookie.replace(/;\s*Domain=[^;]*/gi,'').replace(/;\s*Partitioned\b/gi,'')));
+  if(cookies.length)res.setHeader('set-cookie',cookies.map(cookie=>cookie.replace(/;\s*Domain=[^;]*/gi,'').replace(/;\s*Partitioned\b/gi,'').replace(/;\s*Path=[^;]*/gi,'').replace(/;\s*SameSite=[^;]*/gi,'')+'; Path=/; SameSite=Lax'));
   res.setHeader('cache-control','no-store');
   res.end(Buffer.from(await upstream.arrayBuffer()));
  }catch(error){console.error('Neon Auth proxy:',error?.message);res.statusCode=502;res.setHeader('content-type','application/json; charset=utf-8');res.end(JSON.stringify({error:'Serviço de autenticação temporariamente indisponível.'}))}
