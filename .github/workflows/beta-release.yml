@@ -50,8 +50,8 @@ jobs:
         run: |
           set -euo pipefail
           TAG="v$RELEASE_VERSION"
-          EXISTING="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" --jq '.object.sha' 2>/dev/null || true)"
-          if [[ -n "$EXISTING" ]]; then
+          if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" > "$RUNNER_TEMP/lista_tag_ref.json" 2>/dev/null; then
+            EXISTING="$(jq -r '.object.sha // empty' "$RUNNER_TEMP/lista_tag_ref.json")"
             [[ "$EXISTING" == "$GITHUB_SHA" ]] || { echo "A versão $TAG já aponta para outro commit. Use beta.N nova."; exit 1; }
           else
             gh api -X POST "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$TAG" -f sha="$GITHUB_SHA" >/dev/null
