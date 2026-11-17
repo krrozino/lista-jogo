@@ -4,6 +4,17 @@ Todas as entregas importantes serão registradas aqui e publicadas como **pre-re
 
 ## [Não lançado]
 
+### Ajustes previstos
+- Seguir validando autenticação, proteção de partidas e cadastro sem exigir confirmação de e-mail ainda não ativada.
+
+## [0.4.1-beta.2] — correção de autenticação (17/11/2026)
+
+- Corrigidas no Neon Auth as origens estáveis de produção usadas pela Vercel.
+- Mensagens visíveis para login, cadastro, erros de credenciais, criação de apelido e saída da conta.
+- Senha mínima de 8 caracteres na criação de conta, aviso sobre confirmação de e-mail não obrigatória e correção dos campos obrigatórios ao salvar apelido.
+- Cadastro e ranking seguem em beta; testes reais com contas são necessários antes de declarar homologação completa.
+
+
 - Corrigir e homologar os fluxos de cadastro e ranking com Neon/Vercel antes de declarar estabilidade.
 - Expandir desafios e aprimorar os modos de palavras com validação proporcional ao risco.
 
