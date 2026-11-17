@@ -4,6 +4,23 @@ Todas as entregas antes de 1.0 são **pré-lançamentos** acompanhados pelo [Git
 
 ## Não lançado
 
+- Revisar sugestões da comunidade e avaliar novas formas de competição equilibradas.
+
+## 0.6.0-beta.1 — 17/11/2026
+
+### Novos jogos
+- Quiz de alternativas com 86 perguntas curadas, quatro opções e explicações.
+- Verdadeiro ou Falso com 60 afirmações explicadas.
+- Relâmpago de 60 segundos e Revanche para praticar perguntas erradas.
+- Desafios diários determinísticos para Quiz e Verdadeiro/Falso, atalhos do teclado e histórico local.
+
+### Conteúdo e experiência
+- 82 novas listas de assuntos acessíveis; 786 temas no total, preservando IDs anteriores.
+- Novos desafios com metas alcançáveis, seleção casual e compatibilidade com o catálogo da API.
+- Modos novos independentes do ranking competitivo: não misturam pontos de questionários com Sprint/Turbo.
+- Testes de paridade entre HTML e JSON de listas/perguntas.
+
+
 - Ampliar sinônimos a partir de avaliações reais, ajustar taxa de aceitação e dificuldade observada.
 - Implementar monitoramento anti-cheat mais rigoroso e duelos síncronos após estabilizar o ranking.
 
