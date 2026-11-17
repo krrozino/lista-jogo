@@ -4,6 +4,13 @@ Todas as entregas importantes serão registradas aqui e publicadas como **pre-re
 
 ## [Não lançado]
 
+## [0.4.1-beta.4] — proxy de autenticação (17/11/2026)
+
+- Trocada a reescrita externa por função de proxy Vercel, que encaminha autenticação ao Neon com cabeçalho `Host` correto.
+- Cookies de sessão devolvidos no mesmo domínio, com remoção de atributos de domínio/partição incompatíveis.
+- Cadastro/login seguem em teste beta até completar homologação ponta a ponta.
+
+
 ## [0.4.1-beta.3] — autenticação pelo mesmo domínio (17/11/2026)
 
 - Neon Auth acessado por `/api/auth/*` via proxy HTTPS configurado na Vercel, reduzindo falhas de cookies entre domínios.
