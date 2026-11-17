@@ -1,46 +1,40 @@
 # Histórico de versões — LISTA!
 
-Todas as entregas importantes serão registradas aqui e publicadas como **pre-release** no GitHub enquanto o jogo estiver em beta.
+Todas as entregas antes de 1.0 são **pré-lançamentos** acompanhados pelo [GitHub Releases](https://github.com/krrozino/lista-jogo/releases).
 
-## [Não lançado]
+## Não lançado
 
-## [0.4.1-beta.4] — proxy de autenticação (17/11/2026)
+- Ampliar sinônimos a partir de avaliações reais, ajustar taxa de aceitação e dificuldade observada.
+- Implementar monitoramento anti-cheat mais rigoroso e duelos síncronos após estabilizar o ranking.
 
-- Trocada a reescrita externa por função de proxy Vercel, que encaminha autenticação ao Neon com cabeçalho `Host` correto.
-- Cookies de sessão devolvidos no mesmo domínio, com remoção de atributos de domínio/partição incompatíveis.
-- Cadastro/login seguem em teste beta até completar homologação ponta a ponta.
+## 0.5.0-beta.1 — 17/11/2026
 
+### Curadoria e jogabilidade
+- 704 temas preservados com classificação editorial: 311 Casuais, 162 Fãs/Entusiastas, 231 Especialistas.
+- Temas especializados fora do sorteio padrão; acessíveis no filtro Especialista e Todo o catálogo.
+- Perguntas genéricas reformuladas; conservação de alimentos ampliada; metas flexíveis em 141 listas grandes.
+- Dicas progressivas e sorteio ponderado por histórico, evitando temas repetidos e avaliações negativas.
+- Ajuste das estatísticas locais para reconhecer meta atingida sem exigir 100%.
 
-## [0.4.1-beta.3] — autenticação pelo mesmo domínio (17/11/2026)
+### Social e segurança
+- Avaliação de pergunta/resposta, armazenamento local para visitantes e registro online para usuários autenticados.
+- Rankings separados por Casual/Fãs/Especialista e Sprint/Turbo, com validação de pontos no servidor.
+- Convites de cinco temas para amigos, comparação de pontos para jogadores com conta, fallback de link local.
+- Painel de moderação com autorização explícita no banco; sem administradores automáticos.
+- Backend e dados em Neon; funcionalidades da beta dependem de homologação em produção.
 
-- Neon Auth acessado por `/api/auth/*` via proxy HTTPS configurado na Vercel, reduzindo falhas de cookies entre domínios.
-- Preservado o mecanismo de autenticação verificada pelo servidor e os avisos introduzidos na beta.2.
-- Requer homologação real de cadastro, sessão persistente, perfil e ranking antes de ser marcado como concluído.
+### Verificações
+- Paridade de 704 temas entre HTML e API, validação de IDs e 141 metas, testes de interface no desktop e celular.
+- Pendências de homologação online e anti-cheat descritas no README.
 
+## 0.4.1-beta.4 — 17/11/2026
+- Correções de cookies, proxy Neon Auth e validação de sessão em Vercel.
 
-### Ajustes previstos
-- Seguir validando autenticação, proteção de partidas e cadastro sem exigir confirmação de e-mail ainda não ativada.
+## 0.4.1-beta.3 — 17/11/2026
+- Tentativa de sessão same-origin via reescrita; substituída pelo proxy da beta.4.
 
-## [0.4.1-beta.2] — correção de autenticação (17/11/2026)
+## 0.4.1-beta.2 — 17/11/2026
+- Domínios confiáveis de autenticação e notificações de cadastro/login.
 
-- Corrigidas no Neon Auth as origens estáveis de produção usadas pela Vercel.
-- Mensagens visíveis para login, cadastro, erros de credenciais, criação de apelido e saída da conta.
-- Senha mínima de 8 caracteres na criação de conta, aviso sobre confirmação de e-mail não obrigatória e correção dos campos obrigatórios ao salvar apelido.
-- Cadastro e ranking seguem em beta; testes reais com contas são necessários antes de declarar homologação completa.
-
-
-- Corrigir e homologar os fluxos de cadastro e ranking com Neon/Vercel antes de declarar estabilidade.
-- Expandir desafios e aprimorar os modos de palavras com validação proporcional ao risco.
-
-## [0.4.1-beta.1] — base de pré-lançamento (17/11/2026)
-
-### Adicionado
-- 704 desafios e modos Clássico, Sprint, Turbo, Contexto, Termo, Dueto e Anagrama.
-- Código da integração Neon Auth, API Vercel e estrutura de ranking global para Sprint/Turbo.
-- Repositório GitHub, documentação de versões e pipeline de release beta.
-
-### Observações
-- A presença de integrações no código não garante que cadastro e ranking tenham sido homologados em produção.
-- A versão **1.0.0** não está planejada como próxima entrega automática.
-
-[0.4.1-beta.1]: https://github.com/krrozino/lista-jogo/releases/tag/v0.4.1-beta.1
+## 0.4.1-beta.1 — 17/11/2026
+- Base beta com 704 desafios, Contexto, Termo, Dueto, Anagrama e estrutura Neon Auth/ranking.

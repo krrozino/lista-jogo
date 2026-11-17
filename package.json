@@ -1,9 +1,10 @@
 {
   "name": "lista-jogo",
-  "version": "0.4.1-beta.4",
+  "version": "0.5.0-beta.1",
   "private": true,
   "scripts": {
-    "build": "node scripts/build.cjs"
+    "build": "node scripts/build.cjs",
+    "test": "node scripts/check-catalog.cjs"
   },
   "dependencies": {
     "@neondatabase/auth": "0.7.0-beta",

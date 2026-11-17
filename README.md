@@ -1,17 +1,6 @@
 # LISTA! — Jogo de memória e desafios
 
-**Estado: BETA — versão `0.4.1-beta.1` (não é a 1.0 final).**
-
-Base da antiga versão 4.1: 704 desafios de listas, Contexto, Termo, Dueto, Anagrama, contas Neon Auth, ranking global com pontuação calculada na API.
-
-## Versionamento e releases
-
-- As versões de desenvolvimento usam `0.x.y-alpha.N`, `0.x.y-beta.N` ou `0.x.y-rc.N`.
-- A versão canônica fica em `package.json`. Não lançar `1.0.0` sem decisão explícita.
-- Cada versão beta publicada recebe uma **GitHub Release marcada como pre-release**, notas em `releases/v<VERSÃO>.md` e entrada em `CHANGELOG.md`.
-- O workflow `.github/workflows/beta-release.yml` pode ser executado manualmente (Actions) ou por push da tag correspondente.
-- Veja [RELEASING.md](RELEASING.md) e [Releases](https://github.com/krrozino/lista-jogo/releases).
-- Funcionalidades de contas/ranking dependem da configuração e homologação do Neon e da Vercel; código presente não significa produção validada.
+Versão 4.1: 704 desafios de listas, Contexto, Termo, Dueto, Anagrama, contas Neon Auth, ranking global com pontuação calculada na API.
 
 ## Arquitetura
 - Interface web: HTML/CSS/JS preservados da versão 4.0; `src/auth-client.js` é empacotado pelo esbuild.
