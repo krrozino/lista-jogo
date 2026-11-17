@@ -21,7 +21,7 @@ $('feedbackForm')?.addEventListener('submit',async event=>{event.preventDefault(
  finally{$('feedbackSend').disabled=false}
 });
 async function flushQueue(){if(!pendingFeedback.length)return;let remaining=[];for(const item of pendingFeedback){try{await api('feedback','POST',item)}catch(e){remaining.push(item);if(e.status===401)break}}pendingFeedback=remaining;saveQueued()}
-function randomFive(){let list=app.allTopics().filter(t=>t.audience!=='specialist'&&t.curation==='featured'&&t.answers.length>=5&&t.answers.length<=30);const picks=[],seen=new Set();while(list.length&&picks.length<5){const i=Math.floor(Math.random()*list.length),t=list.splice(i,1)[0];if(seen.has(t.category))continue;seen.add(t.category);picks.push(t.id)}return picks}
+function randomFive(){let list=app.allTopics().filter(t=>t.audience==='casual'&&t.curation==='featured'&&t.level==='Fácil'&&t.answers.length>=4&&t.answers.length<=20);const picks=[],seen=new Set();while(list.length&&picks.length<5){const i=Math.floor(Math.random()*list.length),t=list.splice(i,1)[0];if(seen.has(t.category))continue;seen.add(t.category);picks.push(t.id)}return picks}
 function invitationUrl(invite){const url=new URL(PORTAL);if(invite.code)url.searchParams.set('desafio',invite.code);else url.searchParams.set('lista',invite.topics.join(','));return url.toString()}
 function showInvite(invite){pendingInvite=invite;let url=invitationUrl(invite);$('challengeLink').hidden=false;text('challengeLink',url);$('challengeCopy').hidden=false;$('challengeStart').hidden=false;
  text('shareStatus',invite.code?'Convite online criado! Entre com uma conta para aparecer na classificação dos amigos.':'Convite local pronto! Para comparar pontuações automaticamente, faça login e gere um convite online.');

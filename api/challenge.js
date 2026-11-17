@@ -1,7 +1,7 @@
 'use strict';
 const crypto=require('node:crypto');
 const {db,auth,respond,error,route,fail,catalog}=require('./_shared.cjs');
-function chooseFive(){const pool=[...catalog.values()].filter(t=>t.curation==='featured'&&t.audience!=='specialist'&&t.answers.length>=5&&t.answers.length<=30);
+function chooseFive(){const pool=[...catalog.values()].filter(t=>t.curation==='featured'&&t.audience==='casual'&&t.level==='Fácil'&&t.answers.length>=4&&t.answers.length<=20);
  const picks=[],categories=new Set();for(const t of pool.sort(()=>Math.random()-.5)){if(categories.has(t.category))continue;picks.push(t.id);categories.add(t.category);if(picks.length===5)break}return picks}
 module.exports=async(req,res)=>{if(!route(req,res,['GET','POST']))return;try{const sql=db();
  if(req.method==='POST'){

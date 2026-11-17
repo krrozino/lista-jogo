@@ -7,6 +7,13 @@ Todas as entregas antes de 1.0 são **pré-lançamentos** acompanhados pelo [Git
 - Ampliar sinônimos a partir de avaliações reais, ajustar taxa de aceitação e dificuldade observada.
 - Implementar monitoramento anti-cheat mais rigoroso e duelos síncronos após estabilizar o ranking.
 
+## 0.5.0-beta.2 — 17/11/2026
+
+- Convites entre amigos agora sorteiam somente questões casuais e fáceis, de categorias diferentes, em vez de listas muito específicas.
+- Países insulares do Caribe passam à biblioteca Especialista (sem apagar o desafio nem recordes).
+- Texto do ranking atualizado para refletir a integração Neon já ativa.
+- Revalidados filtros, objetivos flexíveis e interface de convites.
+
 ## 0.5.0-beta.1 — 17/11/2026
 
 ### Curadoria e jogabilidade
