@@ -1,0 +1,2 @@
+const fs=require('node:fs'); const path=require('node:path');const esbuild=require('esbuild');
+(async()=>{fs.mkdirSync('public',{recursive:true});fs.copyFileSync('index.html','public/index.html');await esbuild.build({entryPoints:['src/auth-client.js'],bundle:true,minify:true,format:'esm',platform:'browser',target:'es2022',outfile:'public/auth-client.js',define:{'process.env.NODE_ENV':'\"production\"'}});console.log('LISTA! frontend pronto.');})().catch(err=>{console.error(err);process.exitCode=1});
