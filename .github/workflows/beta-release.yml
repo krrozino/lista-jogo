@@ -48,18 +48,15 @@ jobs:
           fi
           [[ -s "releases/v$VERSION.md" ]] || { echo 'Notas de release não encontradas.'; exit 1; }
           echo "RELEASE_VERSION=$VERSION" >> "$GITHUB_ENV"
-      - name: Criar tag beta quando necessário
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Validar a referência da versão, se existir
         shell: bash
         run: |
           set -euo pipefail
           TAG="v$RELEASE_VERSION"
-          EXISTING="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" --jq '.object.sha // empty' 2>/dev/null || true)"
-          if [[ -n "$EXISTING" && "$EXISTING" != "null" ]]; then
-            [[ "$EXISTING" == "$GITHUB_SHA" ]] || { echo "A versão $TAG já aponta para outro commit. Use beta.N nova."; exit 1; }
-          else
-            gh api -X POST "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$TAG" -f sha="$GITHUB_SHA" >/dev/null
+          REMOTE_SHA="$(git ls-remote --tags origin "refs/tags/$TAG" | awk '{print $1}')"
+          if [[ -n "$REMOTE_SHA" && "$REMOTE_SHA" != "$GITHUB_SHA" ]]; then
+            echo "A versão $TAG já está publicada em outro commit. Escolha nova beta.N." >&2
+            exit 1
           fi
       - name: Publicar pré-release
         env:
@@ -72,4 +69,4 @@ jobs:
             echo "Release $TAG já existe."
             exit 0
           fi
-          gh release create "$TAG" --title "LISTA! $TAG (Beta)" --notes-file "releases/$TAG.md" --prerelease --verify-tag
+          gh release create "$TAG" --target "$GITHUB_SHA" --title "LISTA! $TAG (Beta)" --notes-file "releases/$TAG.md" --prerelease
