@@ -4,6 +4,16 @@ Todas as entregas antes de 1.0 são **pré-lançamentos** acompanhados pelo [Git
 
 ## Não lançado
 
+## 0.8.0-beta.1 — 17/11/2026
+
+- Quiz Misturado de 14 questões, alternando perguntas com alternativas e verdadeiro/falso.
+- Revanche agora inclui erros de verdadeiro/falso, além do Quiz tradicional.
+- Missões diárias e meta semanal, oito medalhas e estrelas locais, sem interferir no ranking competitivo.
+- Painel de estatísticas por assunto e modo, histórico dos últimos sete dias e indicação de tema para revisão.
+- 12 novas listas acessíveis, 18 perguntas de Quiz e 12 afirmações V/F, com explicações e sinônimos.
+- Backup ampliado para incluir a jornada, mantendo os 816 IDs e progressos anteriores.
+
+
 - Revisar sugestões da comunidade e avaliar novas formas de competição equilibradas.
 
 ## 0.6.0-beta.1 — 17/11/2026

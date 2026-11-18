@@ -1,8 +1,8 @@
 # LISTA! — Jogo de memória e desafios
 
-**LISTA! 0.7.0-beta.1 — versão de testes, sem lançamento 1.0.**
+**LISTA! 0.8.0-beta.1 — versão beta, sem lançamento 1.0.**
 
-816 desafios de listas (786 anteriores preservados + 30 novos), 116 questões de Quiz, 80 afirmações de Verdadeiro/Falso, Relâmpago 60s, Revanche dos Erros, Contexto, Termo, Dueto, Anagrama e ranking global para Sprint/Turbo.
+828 desafios de listas (816 anteriores preservados + 12 novos), 134 questões de Quiz, 92 afirmações de Verdadeiro/Falso, Relâmpago 60s, Revanche dos Erros, Contexto, Termo, Dueto, Anagrama e ranking global para Sprint/Turbo.
 
 ## Arquitetura
 - Interface web: HTML/CSS/JS preservados da versão 4.0; `src/auth-client.js` é empacotado pelo esbuild.
@@ -45,3 +45,17 @@ Novas listas abertas apresentam **seleções de respostas**, não listas enciclo
 - **Ranking global**: continua exclusivamente em Sprint/Turbo, com verificação na API; novos modos continuam locais.
 
 A curadoria de conteúdo é contínua: a seleção de respostas das listas abertas não é exaustiva; o feedback de respostas ausentes permanece disponível.
+
+## Atualização 0.8 — jornada do jogador
+
+- **Quiz Misturado**: rodada de até 14 perguntas alternando Quiz e Verdadeiro/Falso; continua local/offline.
+- **Revanche ampliada**: recupera também erros de Verdadeiro/Falso.
+- **Missões diárias**: uma partida, cinco acertos e dois modos diferentes, com estrelas **exclusivamente locais**, sem efeito no ranking competitivo.
+- **Meta semanal**: jogar em três dias diferentes na semana, sem exigência de login.
+- **Estatísticas e medalhas**: partidas, precisão, evolução de sete dias, modos e categorias, sugestão personalizada de treino. Contagem iniciada nesta beta, sem inventar dados passados.
+- **Backup**: exporta/importa a jornada nova com validação e mantém os dados anteriores (`lista-v3-state` e `lista-quiz-beta6`).
+- **Conteúdo**: doze novas listas casuais de metas flexíveis, dezoito perguntas Quiz e doze afirmações V/F.
+- **Código**: `src/journey.js` opera sem serviços externos; app continua funcionando offline para os modos locais.
+- **Validação**: `npm test` garante a preservação de todos os 816 IDs da beta anterior, alinhamento dos dados incorporados ao HTML e scripts de jogo.
+
+As estrelas e medalhas não têm valor monetário, não alteram ranking global e não representam prêmio.

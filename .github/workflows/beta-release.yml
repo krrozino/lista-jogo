@@ -26,6 +26,11 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+      - name: Validar catálogo, fontes e dados offline
+        run: |
+          node scripts/check-catalog.cjs
+          node --check src/quiz.js
+          node --check src/journey.js
       - name: Validar tag, versão e notas
         env:
           MANUAL_VERSION: ${{ inputs.version }}
@@ -50,8 +55,8 @@ jobs:
         run: |
           set -euo pipefail
           TAG="v$RELEASE_VERSION"
-          if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" > "$RUNNER_TEMP/lista_tag_ref.json" 2>/dev/null; then
-            EXISTING="$(jq -r '.object.sha // empty' "$RUNNER_TEMP/lista_tag_ref.json")"
+          EXISTING="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" --jq '.object.sha' 2>/dev/null || true)"
+          if [[ -n "$EXISTING" ]]; then
             [[ "$EXISTING" == "$GITHUB_SHA" ]] || { echo "A versão $TAG já aponta para outro commit. Use beta.N nova."; exit 1; }
           else
             gh api -X POST "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$TAG" -f sha="$GITHUB_SHA" >/dev/null
