@@ -11,11 +11,13 @@ const clamp=(x,a,b)=>Math.max(a,Math.min(b,x)),today=()=>{let d=new Date();retur
 function seedFn(text){let n=2166136261;for(const c of text){n^=c.charCodeAt(0);n=Math.imul(n,16777619)}return n>>>0}
 function rand(seed){let s=seed||1;return()=>{s+=0x6D2B79F5;let t=s;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return ((t^(t>>>14))>>>0)/4294967296}}
 function shuffle(items,r){const a=items.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-const modal=$('quizModal'),categoryPicker=$('quizCategoryPick'),starButton=$('quizStarQuestion'),elements={title:$('quizTitle'),desc:$('quizDescription'),kind:$('quizKind'),counter:$('quizCounter'),clock:$('quizClock'),score:$('quizScore'),bar:$('quizProgress'),question:$('quizQuestion'),category:$('quizCategory'),answers:$('quizAnswers'),feedback:$('quizFeedback'),next:$('quizNext'),summary:$('quizSummary'),body:$('quizBody'),subtitle:$('quizSummarySubtitle'),stats:$('quizSummaryStats'),learn:$('quizSummaryLearn'),daily:$('quizDailyNotice')};
+const modal=$('quizModal'),categoryPicker=$('quizCategoryPick'),packPicker=$('quizPackPick'),starButton=$('quizStarQuestion'),elements={title:$('quizTitle'),desc:$('quizDescription'),kind:$('quizKind'),counter:$('quizCounter'),clock:$('quizClock'),score:$('quizScore'),bar:$('quizProgress'),question:$('quizQuestion'),category:$('quizCategory'),answers:$('quizAnswers'),feedback:$('quizFeedback'),next:$('quizNext'),summary:$('quizSummary'),body:$('quizBody'),subtitle:$('quizSummarySubtitle'),stats:$('quizSummaryStats'),learn:$('quizSummaryLearn'),daily:$('quizDailyNotice')};
 let game=null,timer=null;
 const allCategories=[...new Set([...qdata.quiz,...qdata.truefalse].map(q=>q.category))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
 if(categoryPicker){for(const cat of allCategories){const option=document.createElement('option');option.value=cat;option.textContent=cat;categoryPicker.append(option)}categoryPicker.value=allCategories.includes(saved.lastCategory)?saved.lastCategory:'all';categoryPicker.addEventListener('change',()=>{saved.lastCategory=categoryPicker.value;persist()})}
+const PACK_LABELS={"lotr":"Terra-média","hp":"Harry Potter","marvel":"Marvel","anime":"Animes","screen":"Filmes e séries"};
 function currentCategory(){return categoryPicker?.value||'all'}
+function currentPack(){return packPicker?.value||'all'}
 function updateStar(){if(!starButton||!game||game.finished)return;const id=game.questions[game.idx]?.id,isSaved=saved.starred.includes(id);starButton.hidden=!id;starButton.textContent=isSaved?'★ Favorita':'☆ Favoritar pergunta';starButton.setAttribute('aria-pressed',String(isSaved))}
 if(starButton)starButton.addEventListener('click',()=>{if(!game||game.finished)return;const id=game.questions[game.idx]?.id;if(!id)return;const found=saved.starred.includes(id);saved.starred=found?saved.starred.filter(x=>x!==id):[...saved.starred,id].slice(-250);persist();updateStar()});
 function streak(){const days=new Set(saved.dayHistory);let d=new Date(),n=0;for(let i=0;i<365;i++){let key=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');if(!days.has(key)){if(i===0){d.setDate(d.getDate()-1);continue}break}n++;d.setDate(d.getDate()-1)}return n}
@@ -33,18 +35,19 @@ function open(mode,daily=false){clearClock();const type=mode==='verdadeiro-falso
   const misses=new Set(saved.misses);pool=qdata.quiz.concat(qdata.truefalse).filter(x=>misses.has(x.id));if(category!=='all')pool=pool.filter(q=>q.category===category);
   if(!pool.length){message('Sem erros para revisar! Jogue o Quiz primeiro e volte quando quiser treinar.');return}
  }
+ if(!daily&&currentPack()!=='all')pool=pool.filter(q=>q.pack===currentPack());
  const seed=daily?seedFn('lista-beta6|'+key):Math.floor(Math.random()*4294967295),r=rand(seed);
  if(!daily&&mode!=='revanche'){const recent=new Set(saved.recent.slice(-35));const fresh=pool.filter(q=>!recent.has(q.id));if(fresh.length>=10)pool=fresh}
  const count=mode==='revanche'||mode==='favoritas'?Math.min(10,pool.length):mode==='misturado'?Math.min(14,pool.length):mode==='sobrevivencia'?Math.min(20,pool.length):mode==='verdadeiro-falso'?12:mode==='relampago'?Math.min(18,pool.length):10;
  let questions=shuffle(pool,r).slice(0,count);
  if(mode==='misturado'){const a=shuffle(pool.filter(q=>Array.isArray(q.choices)),r),b=shuffle(pool.filter(q=>typeof q.statement==='string'),r);let mixed=[];while(mixed.length<count&&(a.length||b.length)){if(a.length)mixed.push(a.shift());if(mixed.length<count&&b.length)mixed.push(b.shift());}questions=mixed;}
- if(!questions.length){message('Não há perguntas disponíveis para essa seleção. Escolha outra categoria.');return}
+ if(!questions.length){message('Não há perguntas disponíveis para essa seleção. Escolha outra categoria ou coleção.');return}
  game={mode,type,daily,date:tday,dailyKey:key,questions,idx:0,correct:0,score:0,streak:0,lives:mode==='sobrevivencia'?3:null,answered:false,finished:false,mistakes:[],answeredIds:[],elapsed:0,remaining:mode==='relampago'?60:null,started:Date.now(),seed};
  modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('quiz-lock');
  elements.summary.hidden=true;elements.body.hidden=false;elements.next.hidden=true;
  elements.title.textContent=({quiz:'Quiz de 10', 'verdadeiro-falso':'Verdadeiro ou Falso',misturado:'Quiz Misturado',relampago:'Relâmpago de 60s',revanche:'Revanche dos erros',sobrevivencia:'Sobrevivência · 3 vidas',favoritas:'Minhas favoritas'})[mode];
  elements.desc.textContent=mode==='relampago'?'Responda rapidamente. O cronômetro não para durante a rodada.':mode==='revanche'?'Treine as perguntas que você errou em partidas anteriores.':mode==='sobrevivencia'?'Você tem três vidas. Cada erro tira uma vida; quanto mais longe chegar, maior a pontuação.':mode==='favoritas'?'Rejogue as perguntas que você salvou.':mode==='misturado'?'Alternativas e verdadeiro/falso se alternam. São até 14 perguntas com explicações.':'Cada resposta traz uma explicação curta. Acerte, aprenda e continue.';
- elements.daily.textContent=daily?(prior?'Você já jogou o desafio diário. É possível praticar novamente, sem apagar seu recorde.':'Desafio diário: a mesma sequência de perguntas para todos neste dia.'):'Perguntas sorteadas do acervo curado.';
+ elements.daily.textContent=daily?(prior?'Você já jogou o desafio diário. É possível praticar novamente, sem apagar seu recorde.':'Desafio diário: a mesma sequência de perguntas para todos neste dia.'):(currentPack()!=='all'?'Coleção: '+(PACK_LABELS[currentPack()]||'Personalizada')+'.':'Perguntas sorteadas do acervo curado.');
  elements.kind.textContent=daily?'DESAFIO DIÁRIO':mode==='relampago'?'CONTRA O RELÓGIO':mode==='revanche'||mode==='favoritas'?'REVISÃO':mode==='sobrevivencia'?'3 VIDAS':'JOGO LIVRE';
  elements.clock.hidden=mode!=='relampago';elements.clock.textContent='60s';
  render();if(mode==='relampago'){timer=setInterval(()=>{if(!game||game.finished){clearClock();return}game.remaining=clamp(60-Math.floor((Date.now()-game.started)/1000),0,60);elements.clock.textContent=game.remaining+'s';if(game.remaining===0)finish();},200)}
@@ -53,7 +56,7 @@ function choiceList(q){if(typeof q.statement==='string')return[{label:'Verdadeir
  const labels=shuffle(q.choices,rand(game.seed^seedFn(q.id)));return labels.map(label=>({label,correct:label===q.choices[q.correct]}))}
 function render(){if(!game)return;const q=game.questions[game.idx];if(!q){finish();return}
  game.answered=false;elements.next.hidden=true;elements.feedback.hidden=true;elements.feedback.replaceChildren();
- elements.question.textContent=typeof q.statement==='string'?q.statement:q.question;elements.category.textContent=q.category;
+ elements.question.textContent=typeof q.statement==='string'?q.statement:q.question;elements.category.textContent=q.pack?PACK_LABELS[q.pack]+' · '+q.category:q.category;
  elements.counter.textContent=(game.idx+1)+' / '+game.questions.length;elements.score.textContent=game.score.toLocaleString('pt-BR')+' pts'+(game.lives!==null?' • '+game.lives+' ♥':'');
  updateStar();elements.bar.style.width=(game.idx/game.questions.length*100)+'%';elements.bar.setAttribute('aria-valuenow',String(Math.round(game.idx/game.questions.length*100)));
  elements.answers.replaceChildren();const choices=choiceList(q);
@@ -89,6 +92,7 @@ function finish(){if(!game||game.finished)return;clearClock();game.finished=true
 }
 $('quizNext').addEventListener('click',next);$('quizClose').addEventListener('click',stop);$('quizAgain').addEventListener('click',()=>{const mode=game?.mode||'quiz';open(mode,false)});$('quizBack').addEventListener('click',stop);
 $('quizShare').addEventListener('click',async()=>{const txt=`LISTA! — ${elements.subtitle.textContent} ${elements.stats.textContent}\n${location.origin}`;try{await navigator.clipboard.writeText(txt);$('quizShare').textContent='Resultado copiado!'}catch{$('quizShare').textContent='Use o botão de copiar do seu navegador.'}setTimeout(()=>{$('quizShare').textContent='Compartilhar resultado'},2500)});
+for(const b of document.querySelectorAll('[data-pack-quiz]'))b.addEventListener('click',()=>{if(packPicker)packPicker.value=b.dataset.packQuiz;if(categoryPicker){categoryPicker.value='all';saved.lastCategory='all';persist()}open('misturado',false)});
 for(const b of document.querySelectorAll('[data-quiz-mode]'))b.addEventListener('click',()=>{const isDaily=b.dataset.daily==='1';open(b.dataset.quizMode,isDaily)});
 window.addEventListener('keydown',e=>{if(!game||!modal.classList.contains('open')||e.altKey||e.ctrlKey||e.metaKey)return;
  if(e.key==='Escape'){e.preventDefault();stop();return}

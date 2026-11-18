@@ -59,3 +59,14 @@ A curadoria de conteúdo é contínua: a seleção de respostas das listas abert
 - **Validação**: `npm test` garante a preservação de todos os 816 IDs da beta anterior, alinhamento dos dados incorporados ao HTML e scripts de jogo.
 
 As estrelas e medalhas não têm valor monetário, não alteram ranking global e não representam prêmio.
+
+
+## Pacote de desenvolvimento 01 — Cultura pop e navegação (não publicado)
+
+- 27 novas listas, 72 questões de alternativas e 42 afirmações V/F, com coleções dedicadas a Terra-média, Harry Potter, Marvel, Animes, Filmes e Séries.
+- 27 listas anteriores vinculadas às coleções, sem alterar IDs ou pontuações.
+- Filtros por coleção na biblioteca e Quiz; botões para jogar diretamente.
+- Marca LISTA! retorna ao início sem recarregar; confirmação ao abandonar uma partida ativa e botões equivalentes em diálogos.
+- Desenvolvimento na branch dev-pacotes; preview automático desativado em dev-*. Não criar tag, release ou deploy por mudança individual.
+
+Veja [o planejamento dos pacotes](docs/pacotes/01-cultura-pop.md). A versão publicada permanece 0.8.0-beta.1 até o fechamento do lote.

@@ -1,1 +1,3737 @@
-{"quiz":[{"id":"q001","category":"Geografia","question":"Qual é a capital do Brasil?","choices":["Brasília","Rio de Janeiro","São Paulo","Salvador"],"correct":0,"explanation":"Brasília é a capital federal brasileira desde 1960."},{"id":"q002","category":"Geografia","question":"Em qual continente fica o Egito?","choices":["África","Ásia","Europa","América"],"correct":0,"explanation":"O Egito fica principalmente no nordeste da África."},{"id":"q003","category":"Geografia","question":"Qual oceano banha o litoral do Brasil?","choices":["Atlântico","Pacífico","Índico","Ártico"],"correct":0,"explanation":"O Brasil tem seu litoral voltado para o oceano Atlântico."},{"id":"q004","category":"Geografia","question":"Qual é a capital da Argentina?","choices":["Buenos Aires","Córdoba","Rosário","Mendoza"],"correct":0,"explanation":"Buenos Aires é a capital argentina."},{"id":"q005","category":"Geografia","question":"Em qual país fica a Torre Eiffel?","choices":["França","Alemanha","Itália","Bélgica"],"correct":0,"explanation":"A Torre Eiffel fica em Paris, na França."},{"id":"q006","category":"Geografia","question":"Qual país é conhecido pelo formato de uma bota?","choices":["Itália","Espanha","Grécia","Portugal"],"correct":0,"explanation":"O mapa da Itália costuma ser comparado a uma bota."},{"id":"q007","category":"Geografia","question":"Qual é a capital de Portugal?","choices":["Lisboa","Porto","Coimbra","Braga"],"correct":0,"explanation":"Lisboa é a capital de Portugal."},{"id":"q008","category":"Geografia","question":"Qual continente possui o deserto do Saara?","choices":["África","Ásia","Oceania","Europa"],"correct":0,"explanation":"O Saara se estende pelo norte da África."},{"id":"q009","category":"Geografia","question":"Em qual país fica a cidade de Tóquio?","choices":["Japão","China","Coreia do Sul","Tailândia"],"correct":0,"explanation":"Tóquio é a capital do Japão."},{"id":"q010","category":"Geografia","question":"Qual continente abriga a Amazônia brasileira?","choices":["América do Sul","África","Europa","Ásia"],"correct":0,"explanation":"A Amazônia brasileira fica na América do Sul."},{"id":"q011","category":"Geografia","question":"Qual é a capital do Chile?","choices":["Santiago","Valparaíso","Lima","Quito"],"correct":0,"explanation":"Santiago é a capital chilena."},{"id":"q012","category":"Geografia","question":"Qual mar é famoso por sua alta salinidade e flutuação?","choices":["Mar Morto","Mar do Norte","Mar Báltico","Mar Negro"],"correct":0,"explanation":"O Mar Morto tem salinidade muito elevada."},{"id":"q013","category":"Brasil","question":"Qual estado brasileiro tem Curitiba como capital?","choices":["Paraná","Santa Catarina","Rio Grande do Sul","São Paulo"],"correct":0,"explanation":"Curitiba é a capital do Paraná."},{"id":"q014","category":"Brasil","question":"Qual cidade brasileira é chamada de Cidade Maravilhosa?","choices":["Rio de Janeiro","Recife","Manaus","Belo Horizonte"],"correct":0,"explanation":"Esse é um apelido tradicional do Rio de Janeiro."},{"id":"q015","category":"Brasil","question":"Em qual estado fica a cidade de Salvador?","choices":["Bahia","Pernambuco","Ceará","Sergipe"],"correct":0,"explanation":"Salvador é a capital da Bahia."},{"id":"q016","category":"Brasil","question":"Qual é a moeda oficial do Brasil?","choices":["Real","Peso","Dólar","Euro"],"correct":0,"explanation":"O real é a moeda oficial desde 1994."},{"id":"q017","category":"Brasil","question":"Qual região brasileira abriga Manaus?","choices":["Norte","Sul","Sudeste","Centro-Oeste"],"correct":0,"explanation":"Manaus fica na Região Norte do Brasil."},{"id":"q018","category":"Brasil","question":"Qual festa popular tem desfiles de escolas de samba?","choices":["Carnaval","Festa Junina","Réveillon","Páscoa"],"correct":0,"explanation":"O Carnaval inclui desfiles de escolas de samba."},{"id":"q019","category":"Brasil","question":"Qual é a sigla do estado de Minas Gerais?","choices":["MG","MT","MS","MA"],"correct":0,"explanation":"MG identifica Minas Gerais."},{"id":"q020","category":"Brasil","question":"Onde fica a sede do governo federal brasileiro?","choices":["Brasília","Fortaleza","Curitiba","Belém"],"correct":0,"explanation":"A sede do governo federal fica em Brasília."},{"id":"q021","category":"Ciência","question":"Qual planeta é conhecido como planeta vermelho?","choices":["Marte","Vênus","Mercúrio","Netuno"],"correct":0,"explanation":"A superfície de Marte contém óxidos de ferro que lhe dão cor avermelhada."},{"id":"q022","category":"Ciência","question":"Qual gás é essencial para a respiração humana?","choices":["Oxigênio","Hélio","Argônio","Neônio"],"correct":0,"explanation":"O oxigênio participa da respiração celular."},{"id":"q023","category":"Ciência","question":"Qual órgão bombeia o sangue?","choices":["Coração","Pulmão","Fígado","Rim"],"correct":0,"explanation":"O coração impulsiona o sangue pelo sistema circulatório."},{"id":"q024","category":"Ciência","question":"Qual estado da água tem formato próprio?","choices":["Sólido","Líquido","Gasoso","Vapor"],"correct":0,"explanation":"O gelo sólido mantém forma própria em condições comuns."},{"id":"q025","category":"Ciência","question":"Como se chama a passagem de líquido para vapor?","choices":["Evaporação","Condensação","Solidificação","Fusão"],"correct":0,"explanation":"A evaporação é uma forma de vaporização."},{"id":"q026","category":"Ciência","question":"Que instrumento permite ver objetos muito pequenos?","choices":["Microscópio","Telescópio","Bússola","Termômetro"],"correct":0,"explanation":"O microscópio amplia estruturas pequenas."},{"id":"q027","category":"Ciência","question":"Qual estrela está no centro do Sistema Solar?","choices":["Sol","Sírius","Vega","Betelgeuse"],"correct":0,"explanation":"O Sol é a estrela do Sistema Solar."},{"id":"q028","category":"Ciência","question":"Qual sentido é associado à língua?","choices":["Paladar","Olfato","Visão","Audição"],"correct":0,"explanation":"A língua possui receptores para gostos."},{"id":"q029","category":"Ciência","question":"Qual é a unidade básica da vida?","choices":["Célula","Molécula","Órgão","Átomo"],"correct":0,"explanation":"A célula é considerada a unidade básica dos seres vivos."},{"id":"q030","category":"Ciência","question":"Qual força mantém os objetos próximos ao chão?","choices":["Gravidade","Magnetismo","Atrito","Eletricidade"],"correct":0,"explanation":"A gravidade atrai massas umas às outras."},{"id":"q031","category":"Natureza","question":"Qual animal produz mel?","choices":["Abelha","Formiga","Borboleta","Mosquito"],"correct":0,"explanation":"Abelhas produzem mel a partir do néctar das flores."},{"id":"q032","category":"Natureza","question":"Qual é o maior animal vivo conhecido?","choices":["Baleia-azul","Elefante-africano","Girafa","Hipopótamo"],"correct":0,"explanation":"A baleia-azul é o maior animal vivo conhecido."},{"id":"q033","category":"Natureza","question":"Qual animal passa por metamorfose de lagarta para adulto?","choices":["Borboleta","Cachorro","Gato","Galinha"],"correct":0,"explanation":"Borboletas passam pela fase de lagarta."},{"id":"q034","category":"Natureza","question":"Qual animal é conhecido por ter oito braços?","choices":["Polvo","Tubarão","Caranguejo","Camarão"],"correct":0,"explanation":"Polvos possuem oito braços."},{"id":"q035","category":"Natureza","question":"Qual gás as plantas absorvem na fotossíntese?","choices":["Dióxido de carbono","Oxigênio","Hélio","Hidrogênio"],"correct":0,"explanation":"Na fotossíntese, plantas usam dióxido de carbono e água."},{"id":"q036","category":"Natureza","question":"Qual mamífero voa ativamente?","choices":["Morcego","Esquilo","Pinguim","Avestruz"],"correct":0,"explanation":"Morcegos são mamíferos com voo ativo."},{"id":"q037","category":"Natureza","question":"Qual animal tem listras pretas e brancas?","choices":["Zebra","Girafa","Elefante","Hipopótamo"],"correct":0,"explanation":"Zebras possuem padrões de listras característicos."},{"id":"q038","category":"Natureza","question":"Qual estação vem depois do verão?","choices":["Outono","Inverno","Primavera","Verão"],"correct":0,"explanation":"No ciclo das estações, o outono sucede o verão."},{"id":"q039","category":"Esportes","question":"Quantos jogadores começam em campo por equipe no futebol?","choices":["11","7","5","15"],"correct":0,"explanation":"No futebol de campo, são 11 por equipe."},{"id":"q040","category":"Esportes","question":"Qual esporte usa uma cesta como alvo?","choices":["Basquete","Vôlei","Tênis","Golfe"],"correct":0,"explanation":"O objetivo no basquete é fazer cestas."},{"id":"q041","category":"Esportes","question":"Como se chama o golpe que inicia um ponto no tênis?","choices":["Saque","Bloqueio","Drible","Cabeceio"],"correct":0,"explanation":"O saque coloca a bola em jogo no tênis."},{"id":"q042","category":"Esportes","question":"Qual esporte é associado ao tatame e ao ippon?","choices":["Judô","Futebol","Natação","Ciclismo"],"correct":0,"explanation":"Ippon é uma pontuação decisiva do judô."},{"id":"q043","category":"Esportes","question":"Qual destas modalidades é praticada em uma piscina?","choices":["Natação","Ciclismo","Atletismo","Xadrez"],"correct":0,"explanation":"A natação é praticada na água."},{"id":"q044","category":"Esportes","question":"Qual objeto é usado para rebater no tênis?","choices":["Raquete","Taco","Luvas","Bastão"],"correct":0,"explanation":"No tênis, a bola é golpeada com uma raquete."},{"id":"q045","category":"Esportes","question":"Qual esporte é conhecido por seus peões e reis?","choices":["Xadrez","Damas","Dominó","Truco"],"correct":0,"explanation":"Peões e reis são peças do xadrez."},{"id":"q046","category":"Esportes","question":"Em qual esporte se usa a expressão 'gol de placa'?","choices":["Futebol","Tênis","Basquete","Vôlei"],"correct":0,"explanation":"É uma expressão consagrada no futebol brasileiro."},{"id":"q047","category":"Cotidiano","question":"O que usamos para medir a temperatura corporal?","choices":["Termômetro","Régua","Bússola","Cronômetro"],"correct":0,"explanation":"O termômetro permite medir temperaturas."},{"id":"q048","category":"Cotidiano","question":"Qual objeto serve para abrir uma fechadura?","choices":["Chave","Prato","Vassoura","Relógio"],"correct":0,"explanation":"Uma chave apropriada aciona a fechadura."},{"id":"q049","category":"Cotidiano","question":"O que usamos para escovar os dentes?","choices":["Escova de dentes","Pente","Esponja","Garfo"],"correct":0,"explanation":"A escova de dentes faz a higiene bucal."},{"id":"q050","category":"Cotidiano","question":"Em qual lugar normalmente pegamos livros emprestados?","choices":["Biblioteca","Farmácia","Padaria","Açougue"],"correct":0,"explanation":"Bibliotecas oferecem acervo para consulta e empréstimo."},{"id":"q051","category":"Cotidiano","question":"Qual aparelho mantém alimentos refrigerados?","choices":["Geladeira","Fogão","Micro-ondas","Liquidificador"],"correct":0,"explanation":"Geladeiras mantêm os alimentos frios."},{"id":"q052","category":"Cotidiano","question":"O que usamos para proteger os olhos do sol?","choices":["Óculos de sol","Fone de ouvido","Luvas","Chapéu de chuva"],"correct":0,"explanation":"Óculos com lentes adequadas reduzem a luminosidade."},{"id":"q053","category":"Gastronomia","question":"Qual ingrediente é a base da guacamole?","choices":["Abacate","Tomate","Cenoura","Batata"],"correct":0,"explanation":"Guacamole tradicional é feita com abacate."},{"id":"q054","category":"Gastronomia","question":"Qual doce brasileiro é feito com leite condensado e chocolate?","choices":["Brigadeiro","Quindim","Pé de moleque","Pudim"],"correct":0,"explanation":"O brigadeiro costuma levar leite condensado e chocolate."},{"id":"q055","category":"Gastronomia","question":"Qual alimento costuma ser usado para preparar pipoca?","choices":["Milho","Arroz","Trigo","Feijão"],"correct":0,"explanation":"Pipoca é feita com grãos específicos de milho."},{"id":"q056","category":"Gastronomia","question":"Qual bebida é preparada com grãos torrados e moídos?","choices":["Café","Chá","Suco","Leite"],"correct":0,"explanation":"O café é preparado a partir de grãos torrados do cafeeiro."},{"id":"q057","category":"Gastronomia","question":"Qual fruta é conhecida por ter casca amarela e polpa em gomos?","choices":["Banana","Melancia","Coco","Abacate"],"correct":0,"explanation":"A banana madura costuma ter casca amarela."},{"id":"q058","category":"Gastronomia","question":"Qual alimento é usado na preparação de omelete?","choices":["Ovo","Farinha de mandioca","Arroz","Feijão"],"correct":0,"explanation":"Omeletes são preparados com ovos batidos."},{"id":"q059","category":"Tecnologia","question":"Qual atalho geralmente copia texto no Windows?","choices":["Ctrl+C","Ctrl+X","Ctrl+V","Alt+F4"],"correct":0,"explanation":"Ctrl+C copia a seleção."},{"id":"q060","category":"Tecnologia","question":"Qual dispositivo move o ponteiro do computador?","choices":["Mouse","Impressora","Roteador","Caixa de som"],"correct":0,"explanation":"O mouse controla o ponteiro."},{"id":"q061","category":"Tecnologia","question":"Qual símbolo aparece em endereços de e-mail?","choices":["@","#","&","%"],"correct":0,"explanation":"Endereços de e-mail utilizam o sinal arroba."},{"id":"q062","category":"Tecnologia","question":"O que significa a sigla Wi-Fi no uso cotidiano?","choices":["Rede sem fio","Rede por cabo","Bateria portátil","Tela sensível"],"correct":0,"explanation":"Wi-Fi é uma tecnologia de conexão sem fio; o termo não é uma sigla técnica para 'wireless fidelity'."},{"id":"q063","category":"Tecnologia","question":"Qual dispositivo exibe imagens do computador?","choices":["Monitor","Teclado","Mouse","Modem"],"correct":0,"explanation":"O monitor apresenta a saída visual do computador."},{"id":"q064","category":"Tecnologia","question":"Qual formato de arquivo costuma ser usado para fotografias?","choices":["JPG","MP3","TXT","EXE"],"correct":0,"explanation":"JPG/JPEG é um formato comum de imagens."},{"id":"q065","category":"Cultura Pop","question":"Qual é o nome do boneco cowboy de Toy Story?","choices":["Woody","Buzz","Andy","Rex"],"correct":0,"explanation":"Woody é o boneco cowboy protagonista de Toy Story."},{"id":"q066","category":"Cultura Pop","question":"Qual personagem mora em um abacaxi no fundo do mar?","choices":["Bob Esponja","Pikachu","Scooby-Doo","Pateta"],"correct":0,"explanation":"Bob Esponja vive em um abacaxi em Bikini Bottom."},{"id":"q067","category":"Cultura Pop","question":"Qual é o nome do rato mais famoso da Disney?","choices":["Mickey","Pernalonga","Jerry","Stitch"],"correct":0,"explanation":"Mickey Mouse é o personagem da Disney."},{"id":"q068","category":"Cultura Pop","question":"Qual super-herói costuma usar um escudo redondo?","choices":["Capitão América","Homem-Aranha","Batman","Flash"],"correct":0,"explanation":"O Capitão América tem como marca um escudo circular."},{"id":"q069","category":"Cultura Pop","question":"Qual personagem de Harry Potter é diretor de Hogwarts em boa parte da saga?","choices":["Dumbledore","Hagrid","Voldemort","Sirius Black"],"correct":0,"explanation":"Alvo Dumbledore é diretor de Hogwarts durante boa parte dos livros."},{"id":"q070","category":"Cultura Pop","question":"Qual família animada tem Homer e Marge?","choices":["Os Simpsons","Os Flintstones","Os Jetsons","Os Incríveis"],"correct":0,"explanation":"Homer e Marge são personagens de Os Simpsons."},{"id":"q071","category":"Games","question":"Qual personagem é conhecido como encanador de boné vermelho?","choices":["Mario","Sonic","Link","Kirby"],"correct":0,"explanation":"Mario é um personagem da Nintendo."},{"id":"q072","category":"Games","question":"Qual jogo apresenta blocos de construção e creepers?","choices":["Minecraft","Tetris","Pac-Man","FIFA"],"correct":0,"explanation":"Minecraft é conhecido por seus blocos e criaturas."},{"id":"q073","category":"Games","question":"Qual mascote de videogame é um ouriço azul?","choices":["Sonic","Mario","Crash","Kirby"],"correct":0,"explanation":"Sonic é um ouriço azul."},{"id":"q074","category":"Games","question":"Qual criatura amarela é mascote de Pokémon?","choices":["Pikachu","Charmander","Bulbasaur","Eevee"],"correct":0,"explanation":"Pikachu é um dos rostos de Pokémon."},{"id":"q075","category":"Games","question":"Qual jogo é conhecido por encaixar peças que caem?","choices":["Tetris","Minecraft","Zelda","Portal"],"correct":0,"explanation":"Em Tetris, peças geométricas caem e formam linhas."},{"id":"q076","category":"Games","question":"Qual jogo usa a expressão 'Victory Royale'?","choices":["Fortnite","Minecraft","The Sims","Pac-Man"],"correct":0,"explanation":"Victory Royale é a expressão para vitória no Fortnite."},{"id":"q077","category":"Música","question":"Qual instrumento tem teclas brancas e pretas?","choices":["Piano","Violão","Tambor","Flauta"],"correct":0,"explanation":"O piano possui um teclado com teclas brancas e pretas."},{"id":"q078","category":"Música","question":"Qual banda britânica gravou 'Bohemian Rhapsody'?","choices":["Queen","Beatles","Nirvana","U2"],"correct":0,"explanation":"A música é do Queen."},{"id":"q079","category":"Música","question":"Qual instrumento é tocado com baquetas e pedais?","choices":["Bateria","Flauta","Violino","Saxofone"],"correct":0,"explanation":"Uma bateria usa baquetas e normalmente pedais."},{"id":"q080","category":"Música","question":"Qual cantora brasileira é conhecida por 'Show das Poderosas'?","choices":["Anitta","Ivete Sangalo","Marisa Monte","Pabllo Vittar"],"correct":0,"explanation":"A canção é de Anitta."},{"id":"q081","category":"Artes","question":"Qual técnica de arte usa uma câmera para capturar imagens?","choices":["Fotografia","Escultura","Cerâmica","Gravura"],"correct":0,"explanation":"A fotografia registra imagens com uma câmera."},{"id":"q082","category":"Artes","question":"Qual material costuma ser usado para esculpir estátuas?","choices":["Mármore","Papel sulfite","Algodão","Areia solta"],"correct":0,"explanation":"O mármore é um material tradicional de escultura."},{"id":"q083","category":"História","question":"Que povo antigo construiu as pirâmides de Gizé?","choices":["Egípcios","Romanos","Vikings","Astecas"],"correct":0,"explanation":"As pirâmides de Gizé foram construídas no Egito Antigo."},{"id":"q084","category":"História","question":"Em qual século começou o ano de 1901?","choices":["Século XX","Século XIX","Século XVIII","Século XXI"],"correct":0,"explanation":"O século XX começou em 1901."},{"id":"q085","category":"História","question":"Qual navegante chegou ao Brasil em 1500, segundo os registros portugueses?","choices":["Pedro Álvares Cabral","Vasco da Gama","Cristóvão Colombo","Fernão de Magalhães"],"correct":0,"explanation":"A esquadra liderada por Cabral chegou à costa brasileira em 1500."},{"id":"q086","category":"História","question":"Como se chamava a cidade soterrada pelo Vesúvio em 79 d.C.?","choices":["Pompeia","Atenas","Cartago","Troia"],"correct":0,"explanation":"Pompeia foi afetada pela erupção do Vesúvio."},{"id":"qv7-001","category":"Astronomia","question":"Qual planeta é conhecido como Planeta Vermelho?","choices":["Marte","Vênus","Júpiter","Urano"],"correct":0,"explanation":"Marte tem superfície rica em óxidos de ferro, responsáveis pela aparência avermelhada."},{"id":"qv7-002","category":"Música","question":"Qual instrumento tem teclas brancas e pretas?","choices":["Piano","Violão","Flauta","Tambor"],"correct":0,"explanation":"O piano possui um teclado com teclas brancas e pretas."},{"id":"qv7-003","category":"Natureza","question":"Qual animal produz mel?","choices":["Abelha","Borboleta","Formiga","Joaninha"],"correct":0,"explanation":"As abelhas produzem mel a partir do néctar coletado nas flores."},{"id":"qv7-004","category":"Gastronomia","question":"Qual destas frutas é conhecida pela casca espinhosa?","choices":["Abacaxi","Maçã","Uva","Pera"],"correct":0,"explanation":"O abacaxi possui uma casca rugosa com estruturas pontiagudas."},{"id":"qv7-005","category":"Esportes","question":"Em qual esporte se usa uma cesta?","choices":["Basquete","Futebol","Tênis","Natação"],"correct":0,"explanation":"No basquete, os jogadores tentam acertar a bola na cesta adversária."},{"id":"qv7-006","category":"Natureza","question":"Qual destes é um animal marinho?","choices":["Golfinho","Camelo","Girafa","Tatu"],"correct":0,"explanation":"Golfinhos são mamíferos aquáticos que vivem nos mares e oceanos."},{"id":"qv7-007","category":"Internet","question":"Qual aplicativo é popular para mensagens no Brasil?","choices":["WhatsApp","Photoshop","Excel","VLC"],"correct":0,"explanation":"O WhatsApp é muito usado para mensagens e chamadas no Brasil."},{"id":"qv7-008","category":"Artes","question":"Qual destas cores resulta da mistura de azul e amarelo na pintura tradicional?","choices":["Verde","Roxo","Laranja","Rosa"],"correct":0,"explanation":"Na mistura de tintas tradicional, azul e amarelo produzem verde."},{"id":"qv7-009","category":"Gastronomia","question":"Qual destes alimentos é feito de leite?","choices":["Queijo","Arroz","Feijão","Farinha de milho"],"correct":0,"explanation":"O queijo é produzido por coagulação e processamento de leite."},{"id":"qv7-010","category":"Games","question":"Qual destes é um jogo de tabuleiro?","choices":["Xadrez","Pega-pega","Queimada","Esconde-esconde"],"correct":0,"explanation":"Xadrez é jogado em um tabuleiro de 64 casas."},{"id":"qv7-011","category":"Geografia","question":"Qual país tem Buenos Aires como capital?","choices":["Argentina","Uruguai","Chile","Paraguai"],"correct":0,"explanation":"Buenos Aires é a capital da Argentina."},{"id":"qv7-012","category":"Geografia","question":"Qual destes é um continente?","choices":["África","Sergipe","Amazônia","Lisboa"],"correct":0,"explanation":"A África é um dos continentes do mundo."},{"id":"qv7-013","category":"Ciência","question":"Qual destes aparelhos mede a temperatura?","choices":["Termômetro","Régua","Balança","Relógio"],"correct":0,"explanation":"O termômetro mede temperatura por diferentes tecnologias."},{"id":"qv7-014","category":"Música","question":"Qual instrumento musical tem cordas?","choices":["Violino","Flauta","Trompete","Pandeiro"],"correct":0,"explanation":"O violino é um instrumento de cordas friccionadas."},{"id":"qv7-015","category":"Esportes","question":"Qual destes esportes usa raquete?","choices":["Tênis","Boxe","Judô","Atletismo"],"correct":0,"explanation":"No tênis, a raquete é usada para golpear a bola."},{"id":"qv7-016","category":"Gastronomia","question":"Qual destas bebidas normalmente contém cafeína?","choices":["Café","Água","Suco de uva","Água de coco"],"correct":0,"explanation":"O café contém naturalmente cafeína, uma substância estimulante."},{"id":"qv7-017","category":"Astronomia","question":"Qual é o nome da estrela do Sistema Solar?","choices":["Sol","Lua","Marte","Saturno"],"correct":0,"explanation":"O Sol é a estrela em torno da qual orbitam os planetas do Sistema Solar."},{"id":"qv7-018","category":"Games","question":"Qual personagem da Nintendo usa boné com a letra M?","choices":["Mario","Link","Kirby","Sonic"],"correct":0,"explanation":"Mario usa um boné vermelho com a letra M."},{"id":"qv7-019","category":"Internet","question":"Qual destes é um navegador de internet?","choices":["Firefox","PowerPoint","Paint","Calculadora"],"correct":0,"explanation":"O Firefox permite acessar e navegar por páginas na web."},{"id":"qv7-020","category":"Saúde","question":"O que se usa para proteger a pele dos raios solares?","choices":["Protetor solar","Shampoo","Desodorante","Sabonete"],"correct":0,"explanation":"Protetor solar ajuda a proteger a pele da radiação ultravioleta."},{"id":"qv7-021","category":"Natureza","question":"Qual destes é uma ave?","choices":["Papagaio","Golfinho","Lagarto","Tubarão"],"correct":0,"explanation":"Papagaios são aves com penas, bico e asas."},{"id":"qv7-022","category":"Matemática","question":"Qual destas unidades mede distância?","choices":["Quilômetro","Quilograma","Litro","Segundo"],"correct":0,"explanation":"Quilômetros são unidades de comprimento e distância."},{"id":"qv7-023","category":"Gastronomia","question":"Qual destes alimentos costuma ser usado no sushi?","choices":["Arroz","Macarrão","Pão","Batata frita"],"correct":0,"explanation":"Sushi tradicionalmente usa arroz temperado como base."},{"id":"qv7-024","category":"Cinema e TV","question":"Qual desses personagens aparece em Toy Story?","choices":["Woody","Shrek","Gru","Simba"],"correct":0,"explanation":"Woody é um dos protagonistas da animação Toy Story."},{"id":"qv7-025","category":"Saúde","question":"Qual órgão humano bombeia sangue?","choices":["Coração","Pulmão","Estômago","Rim"],"correct":0,"explanation":"O coração impulsiona o sangue pela circulação do corpo."},{"id":"qv7-026","category":"Astronomia","question":"Qual objeto é usado para observar estrelas distantes?","choices":["Telescópio","Microscópio","Bússola","Barômetro"],"correct":0,"explanation":"Telescópios coletam luz de objetos astronômicos distantes."},{"id":"qv7-027","category":"Música","question":"Qual gênero musical é associado ao carnaval carioca?","choices":["Samba","Country","K-pop","Ópera"],"correct":0,"explanation":"O samba tem forte ligação histórica com escolas de samba e carnaval."},{"id":"qv7-028","category":"Natureza","question":"Qual animal é conhecido por mudar de cor para camuflagem?","choices":["Camaleão","Vaca","Pinguim","Elefante"],"correct":0,"explanation":"Alguns camaleões mudam de cor para comunicação e regulação térmica, além de camuflagem."},{"id":"qv7-029","category":"Astronomia","question":"Qual destes é um planeta com anéis bem visíveis?","choices":["Saturno","Mercúrio","Marte","Vênus"],"correct":0,"explanation":"Saturno tem um sistema de anéis especialmente proeminente."},{"id":"qv7-030","category":"Esportes","question":"Qual esporte tem goleiro e traves?","choices":["Handebol","Natação","Tênis","Vôlei"],"correct":0,"explanation":"No handebol, jogadores tentam marcar gols defendidos pelo goleiro."},{"id":"qv8-001","category":"Natureza","question":"Qual animal pode se orientar usando ecolocalização?","choices":["Morcego","Cavalo","Galinha","Tartaruga"],"correct":0,"explanation":"Morcegos emitem sons e usam o eco para perceber obstáculos e presas."},{"id":"qv8-002","category":"Esportes","question":"No xadrez, qual peça se move em formato de L?","choices":["Bispo","Cavalo","Torre","Rei"],"correct":1,"explanation":"O cavalo se desloca duas casas em uma direção e uma na perpendicular."},{"id":"qv8-003","category":"Ciência","question":"Qual instrumento é usado para medir a temperatura?","choices":["Bússola","Régua","Termômetro","Balança"],"correct":2,"explanation":"O termômetro mede a temperatura de corpos ou ambientes."},{"id":"qv8-004","category":"Artes","question":"Ao misturar tintas azuis e amarelas, qual cor geralmente surge?","choices":["Roxa","Verde","Vermelha","Laranja"],"correct":1,"explanation":"Na mistura tradicional de pigmentos, azul e amarelo produzem verde."},{"id":"qv8-005","category":"Esportes","question":"No futebol, qual cartão significa expulsão?","choices":["Azul","Amarelo","Verde","Vermelho"],"correct":3,"explanation":"O cartão vermelho determina a saída do jogador da partida."},{"id":"qv8-006","category":"Geografia","question":"Qual país abriga a cidade histórica de Machu Picchu?","choices":["Peru","México","Chile","Colômbia"],"correct":0,"explanation":"Machu Picchu está nos Andes peruanos."},{"id":"qv8-007","category":"Gastronomia","question":"Qual fruta é o ingrediente principal do guacamole?","choices":["Morango","Mamão","Abacate","Banana"],"correct":2,"explanation":"O guacamole tradicional é feito principalmente com abacate."},{"id":"qv8-008","category":"Matemática","question":"Quantos lados tem um octógono?","choices":["Seis","Sete","Oito","Nove"],"correct":2,"explanation":"O prefixo octo indica oito; um octógono tem oito lados."},{"id":"qv8-009","category":"Natureza","question":"Qual destes animais é mamífero?","choices":["Tubarão","Golfinho","Sapo","Pinguim"],"correct":1,"explanation":"Golfinhos respiram ar com pulmões e amamentam seus filhotes."},{"id":"qv8-010","category":"Literatura","question":"Quem escreveu o romance Dom Casmurro?","choices":["Clarice Lispector","Jorge Amado","Machado de Assis","José de Alencar"],"correct":2,"explanation":"Dom Casmurro é um romance de Machado de Assis, publicado em 1899."},{"id":"qv8-011","category":"Tecnologia","question":"Qual dispositivo é usado para fornecer energia a um celular?","choices":["Roteador","Carregador","Microfone","Scanner"],"correct":1,"explanation":"O carregador fornece energia elétrica para recarregar a bateria."},{"id":"qv8-012","category":"Natureza","question":"Qual parte da planta geralmente absorve água do solo?","choices":["Flor","Folha","Fruto","Raiz"],"correct":3,"explanation":"As raízes absorvem água e nutrientes minerais do solo."},{"id":"qv8-013","category":"Astronomia","question":"Qual é o planeta mais próximo do Sol?","choices":["Vênus","Mercúrio","Terra","Marte"],"correct":1,"explanation":"Mercúrio é o planeta que orbita mais perto do Sol."},{"id":"qv8-014","category":"Esportes","question":"Qual esporte usa raquete e peteca?","choices":["Badminton","Handebol","Futebol","Golfe"],"correct":0,"explanation":"O badminton usa raquetes para trocar uma peteca sobre a rede."},{"id":"qv8-015","category":"Cotidiano","question":"Qual ferramenta é normalmente usada para apertar um parafuso de fenda?","choices":["Martelo","Chave de fenda","Alicate de pressão","Trena"],"correct":1,"explanation":"A chave de fenda encaixa na ranhura do parafuso."},{"id":"qv8-016","category":"Gastronomia","question":"Qual destes alimentos costuma ser feito a partir de cacau?","choices":["Chocolate","Queijo","Pipoca","Macarrão"],"correct":0,"explanation":"Chocolate é produzido com derivados do cacau."},{"id":"qv8-017","category":"Tecnologia","question":"Qual tecla normalmente apaga o caractere à esquerda do cursor?","choices":["Enter","Shift","Backspace","Tab"],"correct":2,"explanation":"Backspace costuma apagar o caractere antes da posição do cursor."},{"id":"qv8-018","category":"Brasil","question":"Qual cidade brasileira é conhecida por seu frevo?","choices":["Recife","Manaus","Brasília","Curitiba"],"correct":0,"explanation":"O frevo é uma manifestação cultural tradicional de Pernambuco, especialmente do Recife."}],"truefalse":[{"id":"tf001","category":"Geografia","statement":"O Brasil fica na América do Sul.","correct":true,"explanation":"O Brasil faz parte da América do Sul."},{"id":"tf002","category":"Geografia","statement":"Paris é a capital da Alemanha.","correct":false,"explanation":"Paris é a capital da França; Berlim é a capital alemã."},{"id":"tf003","category":"Geografia","statement":"O oceano Pacífico é maior que o Atlântico.","correct":true,"explanation":"O Pacífico tem área maior que o Atlântico."},{"id":"tf004","category":"Geografia","statement":"O Saara fica na Oceania.","correct":false,"explanation":"O Saara fica no norte da África."},{"id":"tf005","category":"Geografia","statement":"O Japão é um país insular.","correct":true,"explanation":"O Japão é um arquipélago no leste da Ásia."},{"id":"tf006","category":"Geografia","statement":"Buenos Aires é a capital do Chile.","correct":false,"explanation":"Buenos Aires é a capital argentina; Santiago é a capital chilena."},{"id":"tf007","category":"Brasil","statement":"Brasília é a capital do Brasil.","correct":true,"explanation":"Brasília tornou-se capital em 1960."},{"id":"tf008","category":"Brasil","statement":"O estado do Acre fica na Região Sul.","correct":false,"explanation":"O Acre fica na Região Norte."},{"id":"tf009","category":"Brasil","statement":"O real é a moeda oficial brasileira.","correct":true,"explanation":"O real é a moeda do Brasil desde 1994."},{"id":"tf010","category":"Brasil","statement":"São Paulo e Rio de Janeiro são estados brasileiros.","correct":true,"explanation":"Ambos são estados da Região Sudeste."},{"id":"tf011","category":"Brasil","statement":"A cidade de Manaus fica no litoral brasileiro.","correct":false,"explanation":"Manaus fica no interior do Amazonas, às margens do rio Negro."},{"id":"tf012","category":"Brasil","statement":"O samba é uma manifestação musical brasileira.","correct":true,"explanation":"O samba integra a cultura musical brasileira."},{"id":"tf013","category":"Ciência","statement":"O Sol é uma estrela.","correct":true,"explanation":"O Sol é a estrela central do Sistema Solar."},{"id":"tf014","category":"Ciência","statement":"A Lua produz luz própria como uma estrela.","correct":false,"explanation":"A Lua reflete a luz recebida principalmente do Sol."},{"id":"tf015","category":"Ciência","statement":"A água pode existir em três estados físicos comuns.","correct":true,"explanation":"Gelo, água líquida e vapor são exemplos."},{"id":"tf016","category":"Ciência","statement":"O som se propaga no vácuo do mesmo modo que no ar.","correct":false,"explanation":"O som necessita de um meio material para se propagar."},{"id":"tf017","category":"Ciência","statement":"O coração participa do sistema circulatório.","correct":true,"explanation":"O coração bombeia sangue pelo corpo."},{"id":"tf018","category":"Ciência","statement":"Marte é o planeta mais próximo do Sol.","correct":false,"explanation":"Mercúrio é o planeta mais próximo do Sol."},{"id":"tf019","category":"Ciência","statement":"A fotossíntese utiliza energia da luz.","correct":true,"explanation":"A luz é uma fonte de energia para a fotossíntese."},{"id":"tf020","category":"Ciência","statement":"Os seres humanos têm quatro pulmões.","correct":false,"explanation":"Os seres humanos normalmente têm dois pulmões."},{"id":"tf021","category":"Natureza","statement":"Uma borboleta passa pela fase de lagarta.","correct":true,"explanation":"A lagarta é uma fase do ciclo de vida das borboletas."},{"id":"tf022","category":"Natureza","statement":"Polvos têm seis braços.","correct":false,"explanation":"Polvos possuem oito braços."},{"id":"tf023","category":"Natureza","statement":"Morcegos são mamíferos.","correct":true,"explanation":"Morcegos amamentam seus filhotes."},{"id":"tf024","category":"Natureza","statement":"Pinguins vivem apenas no Polo Norte.","correct":false,"explanation":"Pinguins vivem no hemisfério sul, não no Polo Norte."},{"id":"tf025","category":"Natureza","statement":"Abelhas podem participar da polinização.","correct":true,"explanation":"Abelhas transportam pólen entre flores."},{"id":"tf026","category":"Natureza","statement":"Peixes respiram principalmente por pulmões.","correct":false,"explanation":"A maioria dos peixes respira por brânquias."},{"id":"tf027","category":"Esportes","statement":"Uma equipe de futebol de campo começa com onze jogadores.","correct":true,"explanation":"O futebol tradicional tem onze jogadores por equipe."},{"id":"tf028","category":"Esportes","statement":"Um saque pode iniciar um ponto no tênis.","correct":true,"explanation":"O saque inicia o ponto no tênis."},{"id":"tf029","category":"Esportes","statement":"No basquete, o objetivo é acertar uma cesta.","correct":true,"explanation":"Os jogadores tentam lançar a bola no aro."},{"id":"tf030","category":"Esportes","statement":"O vôlei usa raquetes para rebater a bola.","correct":false,"explanation":"O vôlei é jogado principalmente com as mãos e braços."},{"id":"tf031","category":"Esportes","statement":"A natação acontece sempre em uma pista de atletismo.","correct":false,"explanation":"A natação é realizada na água."},{"id":"tf032","category":"Esportes","statement":"O judô utiliza o conceito de ippon.","correct":true,"explanation":"Ippon pode decidir a luta no judô."},{"id":"tf033","category":"Cotidiano","statement":"Uma geladeira serve para manter alimentos frios.","correct":true,"explanation":"Geladeiras reduzem a temperatura dos alimentos."},{"id":"tf034","category":"Cotidiano","statement":"Um relógio mede diretamente a pressão arterial.","correct":false,"explanation":"Relógios medem tempo; medidores específicos aferem pressão."},{"id":"tf035","category":"Cotidiano","statement":"Uma biblioteca pode emprestar livros.","correct":true,"explanation":"O empréstimo de livros é um serviço de bibliotecas."},{"id":"tf036","category":"Cotidiano","statement":"Uma bússola é usada principalmente para medir temperatura.","correct":false,"explanation":"Uma bússola ajuda na orientação por direção."},{"id":"tf037","category":"Gastronomia","statement":"O brigadeiro é um doce brasileiro.","correct":true,"explanation":"O brigadeiro é um doce popular no Brasil."},{"id":"tf038","category":"Gastronomia","statement":"Guacamole tradicional usa abacate.","correct":true,"explanation":"Abacate é base da receita."},{"id":"tf039","category":"Gastronomia","statement":"Pipoca é feita de grãos de trigo.","correct":false,"explanation":"Pipoca é feita de milho."},{"id":"tf040","category":"Gastronomia","statement":"A banana é uma fruta.","correct":true,"explanation":"Banana é um fruto comestível."},{"id":"tf041","category":"Tecnologia","statement":"O atalho Ctrl+C normalmente copia um texto selecionado.","correct":true,"explanation":"Ctrl+C costuma copiar a seleção."},{"id":"tf042","category":"Tecnologia","statement":"O formato MP3 é usado principalmente para imagens.","correct":false,"explanation":"MP3 é associado a áudio."},{"id":"tf043","category":"Tecnologia","statement":"Um roteador pode conectar dispositivos à rede.","correct":true,"explanation":"Roteadores fazem parte da infraestrutura de redes."},{"id":"tf044","category":"Tecnologia","statement":"Um mouse é um tipo de impressora.","correct":false,"explanation":"O mouse é um dispositivo de entrada."},{"id":"tf045","category":"Games","statement":"Sonic é um ouriço azul.","correct":true,"explanation":"Sonic é o mascote clássico da Sega."},{"id":"tf046","category":"Games","statement":"Mario é conhecido por usar um boné vermelho.","correct":true,"explanation":"Mario costuma ser retratado com boné vermelho."},{"id":"tf047","category":"Games","statement":"Pikachu é um Pokémon do tipo Água.","correct":false,"explanation":"Pikachu é do tipo Elétrico."},{"id":"tf048","category":"Games","statement":"Minecraft é conhecido por blocos de construção.","correct":true,"explanation":"Minecraft tem um mundo baseado em blocos."},{"id":"tf049","category":"Cultura Pop","statement":"Mickey Mouse é um personagem da Disney.","correct":true,"explanation":"Mickey Mouse é personagem da Disney."},{"id":"tf050","category":"Cultura Pop","statement":"O personagem Woody de Toy Story é um dinossauro.","correct":false,"explanation":"Woody é um boneco cowboy."},{"id":"tf051","category":"Cultura Pop","statement":"Bob Esponja mora em um abacaxi no fundo do mar.","correct":true,"explanation":"Esse é o lar do personagem na animação."},{"id":"tf052","category":"Cultura Pop","statement":"Scooby-Doo é um gato detetive.","correct":false,"explanation":"Scooby-Doo é um cachorro."},{"id":"tf053","category":"Música","statement":"Piano é um instrumento de teclas.","correct":true,"explanation":"O piano possui teclas brancas e pretas."},{"id":"tf054","category":"Música","statement":"Frevo é um gênero musical associado a Pernambuco.","correct":true,"explanation":"O frevo é tradicionalmente associado ao estado de Pernambuco."},{"id":"tf055","category":"Música","statement":"O grupo Queen gravou Bohemian Rhapsody.","correct":true,"explanation":"É uma das músicas mais famosas do Queen."},{"id":"tf056","category":"Música","statement":"Uma guitarra é sempre um instrumento de sopro.","correct":false,"explanation":"Guitarras são instrumentos de cordas."},{"id":"tf057","category":"História","statement":"As pirâmides de Gizé ficam no Egito.","correct":true,"explanation":"As pirâmides de Gizé foram erguidas no Egito Antigo."},{"id":"tf058","category":"História","statement":"O ano de 1901 pertence ao século XIX.","correct":false,"explanation":"1901 é o primeiro ano do século XX."},{"id":"tf059","category":"História","statement":"A cidade antiga de Pompeia foi afetada pela erupção do Vesúvio.","correct":true,"explanation":"A erupção do Vesúvio ocorreu em 79 d.C."},{"id":"tf060","category":"História","statement":"Os romanos construíram a Torre Eiffel na Antiguidade.","correct":false,"explanation":"A Torre Eiffel foi inaugurada em Paris em 1889."},{"id":"tfv7-001","category":"Astronomia","statement":"A Lua é um satélite natural da Terra.","correct":true,"explanation":"A Lua é o satélite natural mais conhecido da Terra."},{"id":"tfv7-002","category":"Geografia","statement":"O Japão fica na América do Sul.","correct":false,"explanation":"O Japão fica na Ásia Oriental."},{"id":"tfv7-003","category":"Natureza","statement":"Abelhas contribuem para a polinização.","correct":true,"explanation":"Abelhas transportam pólen entre flores enquanto se alimentam."},{"id":"tfv7-004","category":"Música","statement":"O violino é um instrumento de sopro.","correct":false,"explanation":"O violino é um instrumento de cordas."},{"id":"tfv7-005","category":"Ciência","statement":"O gelo é água no estado sólido.","correct":true,"explanation":"A água congela e passa para o estado sólido."},{"id":"tfv7-006","category":"Saúde","statement":"O coração faz parte do sistema circulatório.","correct":true,"explanation":"O coração bombeia sangue pelos vasos sanguíneos."},{"id":"tfv7-007","category":"Geral","statement":"Uma semana tem oito dias.","correct":false,"explanation":"A semana possui sete dias."},{"id":"tfv7-008","category":"Geografia","statement":"A cidade de Roma fica na Itália.","correct":true,"explanation":"Roma é a capital italiana."},{"id":"tfv7-009","category":"Esportes","statement":"O basquete é normalmente jogado com os pés.","correct":false,"explanation":"No basquete, o controle da bola é principalmente com as mãos."},{"id":"tfv7-010","category":"Geografia","statement":"O oceano Pacífico é maior que o Atlântico.","correct":true,"explanation":"O Pacífico é o maior oceano da Terra em área."},{"id":"tfv7-011","category":"Matemática","statement":"Um quadrado tem cinco lados.","correct":false,"explanation":"Quadrados são quadriláteros e possuem quatro lados."},{"id":"tfv7-012","category":"Games","statement":"Mario e Luigi aparecem na mesma franquia de jogos.","correct":true,"explanation":"Os dois personagens são irmãos na série Super Mario."},{"id":"tfv7-013","category":"Natureza","statement":"A borboleta passa por metamorfose.","correct":true,"explanation":"Borboletas passam por ovo, larva, pupa e adulto."},{"id":"tfv7-014","category":"Gastronomia","statement":"O abacaxi cresce em uma árvore alta.","correct":false,"explanation":"O abacaxizeiro é uma planta herbácea de porte baixo."},{"id":"tfv7-015","category":"Ciência","statement":"O termômetro é usado para medir temperatura.","correct":true,"explanation":"Termômetros medem temperatura de materiais e ambientes."},{"id":"tfv7-016","category":"Esportes","statement":"O futebol tem quatro tempos regulares de 20 minutos.","correct":false,"explanation":"Uma partida tradicional de futebol tem dois tempos de 45 minutos."},{"id":"tfv7-017","category":"Artes","statement":"A pintura com aquarela normalmente usa água.","correct":true,"explanation":"A aquarela é uma tinta diluída em água."},{"id":"tfv7-018","category":"Tecnologia","statement":"O Windows é um tipo de navegador de internet.","correct":false,"explanation":"Windows é um sistema operacional."},{"id":"tfv7-019","category":"Brasil","statement":"O Brasil tem fronteira terrestre com o Chile.","correct":false,"explanation":"Brasil e Chile não compartilham fronteira terrestre."},{"id":"tfv7-020","category":"Natureza","statement":"O abacate é considerado um fruto.","correct":true,"explanation":"Botanicamente, abacate é o fruto do abacateiro."},{"id":"tfv8-001","category":"Matemática","statement":"Um hexágono tem seis lados.","correct":true,"explanation":"Hexa significa seis; hexágonos possuem seis lados."},{"id":"tfv8-002","category":"Astronomia","statement":"A Lua emite luz visível própria como uma estrela.","correct":false,"explanation":"A luz que vemos na Lua é principalmente a luz solar refletida."},{"id":"tfv8-003","category":"Natureza","statement":"Insetos adultos geralmente possuem três pares de patas.","correct":true,"explanation":"Insetos possuem seis pernas na fase adulta."},{"id":"tfv8-004","category":"Astronomia","statement":"Júpiter é o maior planeta do Sistema Solar.","correct":true,"explanation":"Júpiter tem o maior diâmetro e a maior massa entre os oito planetas."},{"id":"tfv8-005","category":"Tecnologia","statement":"A extensão .jpg costuma identificar arquivos de imagem.","correct":true,"explanation":"JPG/JPEG são formatos populares para fotografias e imagens."},{"id":"tfv8-006","category":"Natureza","statement":"Pinguins vivem naturalmente apenas no Polo Norte.","correct":false,"explanation":"Pinguins habitam o Hemisfério Sul, incluindo a Antártida."},{"id":"tfv8-007","category":"Esportes","statement":"No basquete, um lance livre convertido vale três pontos.","correct":false,"explanation":"Um lance livre convertido vale um ponto."},{"id":"tfv8-008","category":"Gastronomia","statement":"O pão é normalmente preparado por um processo de cozimento ou forno.","correct":true,"explanation":"A maior parte dos pães tradicionais é assada."},{"id":"tfv8-009","category":"História","statement":"Salvador já foi capital do Brasil.","correct":true,"explanation":"Salvador foi a primeira capital do Brasil colonial."},{"id":"tfv8-010","category":"Matemática","statement":"Todo quadrado tem quatro lados de mesmo comprimento.","correct":true,"explanation":"Os quatro lados de um quadrado são congruentes."},{"id":"tfv8-011","category":"Natureza","statement":"Golfinhos respiram por brânquias, como os peixes.","correct":false,"explanation":"Golfinhos têm pulmões e precisam subir à superfície para respirar."},{"id":"tfv8-012","category":"Ciência","statement":"O som se propaga no vácuo da mesma forma que no ar.","correct":false,"explanation":"O som precisa de um meio material para se propagar."}]}
+{
+  "quiz": [
+    {
+      "id": "q001",
+      "category": "Geografia",
+      "question": "Qual é a capital do Brasil?",
+      "choices": [
+        "Brasília",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correct": 0,
+      "explanation": "Brasília é a capital federal brasileira desde 1960."
+    },
+    {
+      "id": "q002",
+      "category": "Geografia",
+      "question": "Em qual continente fica o Egito?",
+      "choices": [
+        "África",
+        "Ásia",
+        "Europa",
+        "América"
+      ],
+      "correct": 0,
+      "explanation": "O Egito fica principalmente no nordeste da África."
+    },
+    {
+      "id": "q003",
+      "category": "Geografia",
+      "question": "Qual oceano banha o litoral do Brasil?",
+      "choices": [
+        "Atlântico",
+        "Pacífico",
+        "Índico",
+        "Ártico"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil tem seu litoral voltado para o oceano Atlântico."
+    },
+    {
+      "id": "q004",
+      "category": "Geografia",
+      "question": "Qual é a capital da Argentina?",
+      "choices": [
+        "Buenos Aires",
+        "Córdoba",
+        "Rosário",
+        "Mendoza"
+      ],
+      "correct": 0,
+      "explanation": "Buenos Aires é a capital argentina."
+    },
+    {
+      "id": "q005",
+      "category": "Geografia",
+      "question": "Em qual país fica a Torre Eiffel?",
+      "choices": [
+        "França",
+        "Alemanha",
+        "Itália",
+        "Bélgica"
+      ],
+      "correct": 0,
+      "explanation": "A Torre Eiffel fica em Paris, na França."
+    },
+    {
+      "id": "q006",
+      "category": "Geografia",
+      "question": "Qual país é conhecido pelo formato de uma bota?",
+      "choices": [
+        "Itália",
+        "Espanha",
+        "Grécia",
+        "Portugal"
+      ],
+      "correct": 0,
+      "explanation": "O mapa da Itália costuma ser comparado a uma bota."
+    },
+    {
+      "id": "q007",
+      "category": "Geografia",
+      "question": "Qual é a capital de Portugal?",
+      "choices": [
+        "Lisboa",
+        "Porto",
+        "Coimbra",
+        "Braga"
+      ],
+      "correct": 0,
+      "explanation": "Lisboa é a capital de Portugal."
+    },
+    {
+      "id": "q008",
+      "category": "Geografia",
+      "question": "Qual continente possui o deserto do Saara?",
+      "choices": [
+        "África",
+        "Ásia",
+        "Oceania",
+        "Europa"
+      ],
+      "correct": 0,
+      "explanation": "O Saara se estende pelo norte da África."
+    },
+    {
+      "id": "q009",
+      "category": "Geografia",
+      "question": "Em qual país fica a cidade de Tóquio?",
+      "choices": [
+        "Japão",
+        "China",
+        "Coreia do Sul",
+        "Tailândia"
+      ],
+      "correct": 0,
+      "explanation": "Tóquio é a capital do Japão."
+    },
+    {
+      "id": "q010",
+      "category": "Geografia",
+      "question": "Qual continente abriga a Amazônia brasileira?",
+      "choices": [
+        "América do Sul",
+        "África",
+        "Europa",
+        "Ásia"
+      ],
+      "correct": 0,
+      "explanation": "A Amazônia brasileira fica na América do Sul."
+    },
+    {
+      "id": "q011",
+      "category": "Geografia",
+      "question": "Qual é a capital do Chile?",
+      "choices": [
+        "Santiago",
+        "Valparaíso",
+        "Lima",
+        "Quito"
+      ],
+      "correct": 0,
+      "explanation": "Santiago é a capital chilena."
+    },
+    {
+      "id": "q012",
+      "category": "Geografia",
+      "question": "Qual mar é famoso por sua alta salinidade e flutuação?",
+      "choices": [
+        "Mar Morto",
+        "Mar do Norte",
+        "Mar Báltico",
+        "Mar Negro"
+      ],
+      "correct": 0,
+      "explanation": "O Mar Morto tem salinidade muito elevada."
+    },
+    {
+      "id": "q013",
+      "category": "Brasil",
+      "question": "Qual estado brasileiro tem Curitiba como capital?",
+      "choices": [
+        "Paraná",
+        "Santa Catarina",
+        "Rio Grande do Sul",
+        "São Paulo"
+      ],
+      "correct": 0,
+      "explanation": "Curitiba é a capital do Paraná."
+    },
+    {
+      "id": "q014",
+      "category": "Brasil",
+      "question": "Qual cidade brasileira é chamada de Cidade Maravilhosa?",
+      "choices": [
+        "Rio de Janeiro",
+        "Recife",
+        "Manaus",
+        "Belo Horizonte"
+      ],
+      "correct": 0,
+      "explanation": "Esse é um apelido tradicional do Rio de Janeiro."
+    },
+    {
+      "id": "q015",
+      "category": "Brasil",
+      "question": "Em qual estado fica a cidade de Salvador?",
+      "choices": [
+        "Bahia",
+        "Pernambuco",
+        "Ceará",
+        "Sergipe"
+      ],
+      "correct": 0,
+      "explanation": "Salvador é a capital da Bahia."
+    },
+    {
+      "id": "q016",
+      "category": "Brasil",
+      "question": "Qual é a moeda oficial do Brasil?",
+      "choices": [
+        "Real",
+        "Peso",
+        "Dólar",
+        "Euro"
+      ],
+      "correct": 0,
+      "explanation": "O real é a moeda oficial desde 1994."
+    },
+    {
+      "id": "q017",
+      "category": "Brasil",
+      "question": "Qual região brasileira abriga Manaus?",
+      "choices": [
+        "Norte",
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "correct": 0,
+      "explanation": "Manaus fica na Região Norte do Brasil."
+    },
+    {
+      "id": "q018",
+      "category": "Brasil",
+      "question": "Qual festa popular tem desfiles de escolas de samba?",
+      "choices": [
+        "Carnaval",
+        "Festa Junina",
+        "Réveillon",
+        "Páscoa"
+      ],
+      "correct": 0,
+      "explanation": "O Carnaval inclui desfiles de escolas de samba."
+    },
+    {
+      "id": "q019",
+      "category": "Brasil",
+      "question": "Qual é a sigla do estado de Minas Gerais?",
+      "choices": [
+        "MG",
+        "MT",
+        "MS",
+        "MA"
+      ],
+      "correct": 0,
+      "explanation": "MG identifica Minas Gerais."
+    },
+    {
+      "id": "q020",
+      "category": "Brasil",
+      "question": "Onde fica a sede do governo federal brasileiro?",
+      "choices": [
+        "Brasília",
+        "Fortaleza",
+        "Curitiba",
+        "Belém"
+      ],
+      "correct": 0,
+      "explanation": "A sede do governo federal fica em Brasília."
+    },
+    {
+      "id": "q021",
+      "category": "Ciência",
+      "question": "Qual planeta é conhecido como planeta vermelho?",
+      "choices": [
+        "Marte",
+        "Vênus",
+        "Mercúrio",
+        "Netuno"
+      ],
+      "correct": 0,
+      "explanation": "A superfície de Marte contém óxidos de ferro que lhe dão cor avermelhada."
+    },
+    {
+      "id": "q022",
+      "category": "Ciência",
+      "question": "Qual gás é essencial para a respiração humana?",
+      "choices": [
+        "Oxigênio",
+        "Hélio",
+        "Argônio",
+        "Neônio"
+      ],
+      "correct": 0,
+      "explanation": "O oxigênio participa da respiração celular."
+    },
+    {
+      "id": "q023",
+      "category": "Ciência",
+      "question": "Qual órgão bombeia o sangue?",
+      "choices": [
+        "Coração",
+        "Pulmão",
+        "Fígado",
+        "Rim"
+      ],
+      "correct": 0,
+      "explanation": "O coração impulsiona o sangue pelo sistema circulatório."
+    },
+    {
+      "id": "q024",
+      "category": "Ciência",
+      "question": "Qual estado da água tem formato próprio?",
+      "choices": [
+        "Sólido",
+        "Líquido",
+        "Gasoso",
+        "Vapor"
+      ],
+      "correct": 0,
+      "explanation": "O gelo sólido mantém forma própria em condições comuns."
+    },
+    {
+      "id": "q025",
+      "category": "Ciência",
+      "question": "Como se chama a passagem de líquido para vapor?",
+      "choices": [
+        "Evaporação",
+        "Condensação",
+        "Solidificação",
+        "Fusão"
+      ],
+      "correct": 0,
+      "explanation": "A evaporação é uma forma de vaporização."
+    },
+    {
+      "id": "q026",
+      "category": "Ciência",
+      "question": "Que instrumento permite ver objetos muito pequenos?",
+      "choices": [
+        "Microscópio",
+        "Telescópio",
+        "Bússola",
+        "Termômetro"
+      ],
+      "correct": 0,
+      "explanation": "O microscópio amplia estruturas pequenas."
+    },
+    {
+      "id": "q027",
+      "category": "Ciência",
+      "question": "Qual estrela está no centro do Sistema Solar?",
+      "choices": [
+        "Sol",
+        "Sírius",
+        "Vega",
+        "Betelgeuse"
+      ],
+      "correct": 0,
+      "explanation": "O Sol é a estrela do Sistema Solar."
+    },
+    {
+      "id": "q028",
+      "category": "Ciência",
+      "question": "Qual sentido é associado à língua?",
+      "choices": [
+        "Paladar",
+        "Olfato",
+        "Visão",
+        "Audição"
+      ],
+      "correct": 0,
+      "explanation": "A língua possui receptores para gostos."
+    },
+    {
+      "id": "q029",
+      "category": "Ciência",
+      "question": "Qual é a unidade básica da vida?",
+      "choices": [
+        "Célula",
+        "Molécula",
+        "Órgão",
+        "Átomo"
+      ],
+      "correct": 0,
+      "explanation": "A célula é considerada a unidade básica dos seres vivos."
+    },
+    {
+      "id": "q030",
+      "category": "Ciência",
+      "question": "Qual força mantém os objetos próximos ao chão?",
+      "choices": [
+        "Gravidade",
+        "Magnetismo",
+        "Atrito",
+        "Eletricidade"
+      ],
+      "correct": 0,
+      "explanation": "A gravidade atrai massas umas às outras."
+    },
+    {
+      "id": "q031",
+      "category": "Natureza",
+      "question": "Qual animal produz mel?",
+      "choices": [
+        "Abelha",
+        "Formiga",
+        "Borboleta",
+        "Mosquito"
+      ],
+      "correct": 0,
+      "explanation": "Abelhas produzem mel a partir do néctar das flores."
+    },
+    {
+      "id": "q032",
+      "category": "Natureza",
+      "question": "Qual é o maior animal vivo conhecido?",
+      "choices": [
+        "Baleia-azul",
+        "Elefante-africano",
+        "Girafa",
+        "Hipopótamo"
+      ],
+      "correct": 0,
+      "explanation": "A baleia-azul é o maior animal vivo conhecido."
+    },
+    {
+      "id": "q033",
+      "category": "Natureza",
+      "question": "Qual animal passa por metamorfose de lagarta para adulto?",
+      "choices": [
+        "Borboleta",
+        "Cachorro",
+        "Gato",
+        "Galinha"
+      ],
+      "correct": 0,
+      "explanation": "Borboletas passam pela fase de lagarta."
+    },
+    {
+      "id": "q034",
+      "category": "Natureza",
+      "question": "Qual animal é conhecido por ter oito braços?",
+      "choices": [
+        "Polvo",
+        "Tubarão",
+        "Caranguejo",
+        "Camarão"
+      ],
+      "correct": 0,
+      "explanation": "Polvos possuem oito braços."
+    },
+    {
+      "id": "q035",
+      "category": "Natureza",
+      "question": "Qual gás as plantas absorvem na fotossíntese?",
+      "choices": [
+        "Dióxido de carbono",
+        "Oxigênio",
+        "Hélio",
+        "Hidrogênio"
+      ],
+      "correct": 0,
+      "explanation": "Na fotossíntese, plantas usam dióxido de carbono e água."
+    },
+    {
+      "id": "q036",
+      "category": "Natureza",
+      "question": "Qual mamífero voa ativamente?",
+      "choices": [
+        "Morcego",
+        "Esquilo",
+        "Pinguim",
+        "Avestruz"
+      ],
+      "correct": 0,
+      "explanation": "Morcegos são mamíferos com voo ativo."
+    },
+    {
+      "id": "q037",
+      "category": "Natureza",
+      "question": "Qual animal tem listras pretas e brancas?",
+      "choices": [
+        "Zebra",
+        "Girafa",
+        "Elefante",
+        "Hipopótamo"
+      ],
+      "correct": 0,
+      "explanation": "Zebras possuem padrões de listras característicos."
+    },
+    {
+      "id": "q038",
+      "category": "Natureza",
+      "question": "Qual estação vem depois do verão?",
+      "choices": [
+        "Outono",
+        "Inverno",
+        "Primavera",
+        "Verão"
+      ],
+      "correct": 0,
+      "explanation": "No ciclo das estações, o outono sucede o verão."
+    },
+    {
+      "id": "q039",
+      "category": "Esportes",
+      "question": "Quantos jogadores começam em campo por equipe no futebol?",
+      "choices": [
+        "11",
+        "7",
+        "5",
+        "15"
+      ],
+      "correct": 0,
+      "explanation": "No futebol de campo, são 11 por equipe."
+    },
+    {
+      "id": "q040",
+      "category": "Esportes",
+      "question": "Qual esporte usa uma cesta como alvo?",
+      "choices": [
+        "Basquete",
+        "Vôlei",
+        "Tênis",
+        "Golfe"
+      ],
+      "correct": 0,
+      "explanation": "O objetivo no basquete é fazer cestas."
+    },
+    {
+      "id": "q041",
+      "category": "Esportes",
+      "question": "Como se chama o golpe que inicia um ponto no tênis?",
+      "choices": [
+        "Saque",
+        "Bloqueio",
+        "Drible",
+        "Cabeceio"
+      ],
+      "correct": 0,
+      "explanation": "O saque coloca a bola em jogo no tênis."
+    },
+    {
+      "id": "q042",
+      "category": "Esportes",
+      "question": "Qual esporte é associado ao tatame e ao ippon?",
+      "choices": [
+        "Judô",
+        "Futebol",
+        "Natação",
+        "Ciclismo"
+      ],
+      "correct": 0,
+      "explanation": "Ippon é uma pontuação decisiva do judô."
+    },
+    {
+      "id": "q043",
+      "category": "Esportes",
+      "question": "Qual destas modalidades é praticada em uma piscina?",
+      "choices": [
+        "Natação",
+        "Ciclismo",
+        "Atletismo",
+        "Xadrez"
+      ],
+      "correct": 0,
+      "explanation": "A natação é praticada na água."
+    },
+    {
+      "id": "q044",
+      "category": "Esportes",
+      "question": "Qual objeto é usado para rebater no tênis?",
+      "choices": [
+        "Raquete",
+        "Taco",
+        "Luvas",
+        "Bastão"
+      ],
+      "correct": 0,
+      "explanation": "No tênis, a bola é golpeada com uma raquete."
+    },
+    {
+      "id": "q045",
+      "category": "Esportes",
+      "question": "Qual esporte é conhecido por seus peões e reis?",
+      "choices": [
+        "Xadrez",
+        "Damas",
+        "Dominó",
+        "Truco"
+      ],
+      "correct": 0,
+      "explanation": "Peões e reis são peças do xadrez."
+    },
+    {
+      "id": "q046",
+      "category": "Esportes",
+      "question": "Em qual esporte se usa a expressão 'gol de placa'?",
+      "choices": [
+        "Futebol",
+        "Tênis",
+        "Basquete",
+        "Vôlei"
+      ],
+      "correct": 0,
+      "explanation": "É uma expressão consagrada no futebol brasileiro."
+    },
+    {
+      "id": "q047",
+      "category": "Cotidiano",
+      "question": "O que usamos para medir a temperatura corporal?",
+      "choices": [
+        "Termômetro",
+        "Régua",
+        "Bússola",
+        "Cronômetro"
+      ],
+      "correct": 0,
+      "explanation": "O termômetro permite medir temperaturas."
+    },
+    {
+      "id": "q048",
+      "category": "Cotidiano",
+      "question": "Qual objeto serve para abrir uma fechadura?",
+      "choices": [
+        "Chave",
+        "Prato",
+        "Vassoura",
+        "Relógio"
+      ],
+      "correct": 0,
+      "explanation": "Uma chave apropriada aciona a fechadura."
+    },
+    {
+      "id": "q049",
+      "category": "Cotidiano",
+      "question": "O que usamos para escovar os dentes?",
+      "choices": [
+        "Escova de dentes",
+        "Pente",
+        "Esponja",
+        "Garfo"
+      ],
+      "correct": 0,
+      "explanation": "A escova de dentes faz a higiene bucal."
+    },
+    {
+      "id": "q050",
+      "category": "Cotidiano",
+      "question": "Em qual lugar normalmente pegamos livros emprestados?",
+      "choices": [
+        "Biblioteca",
+        "Farmácia",
+        "Padaria",
+        "Açougue"
+      ],
+      "correct": 0,
+      "explanation": "Bibliotecas oferecem acervo para consulta e empréstimo."
+    },
+    {
+      "id": "q051",
+      "category": "Cotidiano",
+      "question": "Qual aparelho mantém alimentos refrigerados?",
+      "choices": [
+        "Geladeira",
+        "Fogão",
+        "Micro-ondas",
+        "Liquidificador"
+      ],
+      "correct": 0,
+      "explanation": "Geladeiras mantêm os alimentos frios."
+    },
+    {
+      "id": "q052",
+      "category": "Cotidiano",
+      "question": "O que usamos para proteger os olhos do sol?",
+      "choices": [
+        "Óculos de sol",
+        "Fone de ouvido",
+        "Luvas",
+        "Chapéu de chuva"
+      ],
+      "correct": 0,
+      "explanation": "Óculos com lentes adequadas reduzem a luminosidade."
+    },
+    {
+      "id": "q053",
+      "category": "Gastronomia",
+      "question": "Qual ingrediente é a base da guacamole?",
+      "choices": [
+        "Abacate",
+        "Tomate",
+        "Cenoura",
+        "Batata"
+      ],
+      "correct": 0,
+      "explanation": "Guacamole tradicional é feita com abacate."
+    },
+    {
+      "id": "q054",
+      "category": "Gastronomia",
+      "question": "Qual doce brasileiro é feito com leite condensado e chocolate?",
+      "choices": [
+        "Brigadeiro",
+        "Quindim",
+        "Pé de moleque",
+        "Pudim"
+      ],
+      "correct": 0,
+      "explanation": "O brigadeiro costuma levar leite condensado e chocolate."
+    },
+    {
+      "id": "q055",
+      "category": "Gastronomia",
+      "question": "Qual alimento costuma ser usado para preparar pipoca?",
+      "choices": [
+        "Milho",
+        "Arroz",
+        "Trigo",
+        "Feijão"
+      ],
+      "correct": 0,
+      "explanation": "Pipoca é feita com grãos específicos de milho."
+    },
+    {
+      "id": "q056",
+      "category": "Gastronomia",
+      "question": "Qual bebida é preparada com grãos torrados e moídos?",
+      "choices": [
+        "Café",
+        "Chá",
+        "Suco",
+        "Leite"
+      ],
+      "correct": 0,
+      "explanation": "O café é preparado a partir de grãos torrados do cafeeiro."
+    },
+    {
+      "id": "q057",
+      "category": "Gastronomia",
+      "question": "Qual fruta é conhecida por ter casca amarela e polpa em gomos?",
+      "choices": [
+        "Banana",
+        "Melancia",
+        "Coco",
+        "Abacate"
+      ],
+      "correct": 0,
+      "explanation": "A banana madura costuma ter casca amarela."
+    },
+    {
+      "id": "q058",
+      "category": "Gastronomia",
+      "question": "Qual alimento é usado na preparação de omelete?",
+      "choices": [
+        "Ovo",
+        "Farinha de mandioca",
+        "Arroz",
+        "Feijão"
+      ],
+      "correct": 0,
+      "explanation": "Omeletes são preparados com ovos batidos."
+    },
+    {
+      "id": "q059",
+      "category": "Tecnologia",
+      "question": "Qual atalho geralmente copia texto no Windows?",
+      "choices": [
+        "Ctrl+C",
+        "Ctrl+X",
+        "Ctrl+V",
+        "Alt+F4"
+      ],
+      "correct": 0,
+      "explanation": "Ctrl+C copia a seleção."
+    },
+    {
+      "id": "q060",
+      "category": "Tecnologia",
+      "question": "Qual dispositivo move o ponteiro do computador?",
+      "choices": [
+        "Mouse",
+        "Impressora",
+        "Roteador",
+        "Caixa de som"
+      ],
+      "correct": 0,
+      "explanation": "O mouse controla o ponteiro."
+    },
+    {
+      "id": "q061",
+      "category": "Tecnologia",
+      "question": "Qual símbolo aparece em endereços de e-mail?",
+      "choices": [
+        "@",
+        "#",
+        "&",
+        "%"
+      ],
+      "correct": 0,
+      "explanation": "Endereços de e-mail utilizam o sinal arroba."
+    },
+    {
+      "id": "q062",
+      "category": "Tecnologia",
+      "question": "O que significa a sigla Wi-Fi no uso cotidiano?",
+      "choices": [
+        "Rede sem fio",
+        "Rede por cabo",
+        "Bateria portátil",
+        "Tela sensível"
+      ],
+      "correct": 0,
+      "explanation": "Wi-Fi é uma tecnologia de conexão sem fio; o termo não é uma sigla técnica para 'wireless fidelity'."
+    },
+    {
+      "id": "q063",
+      "category": "Tecnologia",
+      "question": "Qual dispositivo exibe imagens do computador?",
+      "choices": [
+        "Monitor",
+        "Teclado",
+        "Mouse",
+        "Modem"
+      ],
+      "correct": 0,
+      "explanation": "O monitor apresenta a saída visual do computador."
+    },
+    {
+      "id": "q064",
+      "category": "Tecnologia",
+      "question": "Qual formato de arquivo costuma ser usado para fotografias?",
+      "choices": [
+        "JPG",
+        "MP3",
+        "TXT",
+        "EXE"
+      ],
+      "correct": 0,
+      "explanation": "JPG/JPEG é um formato comum de imagens."
+    },
+    {
+      "id": "q065",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome do boneco cowboy de Toy Story?",
+      "choices": [
+        "Woody",
+        "Buzz",
+        "Andy",
+        "Rex"
+      ],
+      "correct": 0,
+      "explanation": "Woody é o boneco cowboy protagonista de Toy Story."
+    },
+    {
+      "id": "q066",
+      "category": "Cultura Pop",
+      "question": "Qual personagem mora em um abacaxi no fundo do mar?",
+      "choices": [
+        "Bob Esponja",
+        "Pikachu",
+        "Scooby-Doo",
+        "Pateta"
+      ],
+      "correct": 0,
+      "explanation": "Bob Esponja vive em um abacaxi em Bikini Bottom."
+    },
+    {
+      "id": "q067",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome do rato mais famoso da Disney?",
+      "choices": [
+        "Mickey",
+        "Pernalonga",
+        "Jerry",
+        "Stitch"
+      ],
+      "correct": 0,
+      "explanation": "Mickey Mouse é o personagem da Disney."
+    },
+    {
+      "id": "q068",
+      "category": "Cultura Pop",
+      "question": "Qual super-herói costuma usar um escudo redondo?",
+      "choices": [
+        "Capitão América",
+        "Homem-Aranha",
+        "Batman",
+        "Flash"
+      ],
+      "correct": 0,
+      "explanation": "O Capitão América tem como marca um escudo circular."
+    },
+    {
+      "id": "q069",
+      "category": "Cultura Pop",
+      "question": "Qual personagem de Harry Potter é diretor de Hogwarts em boa parte da saga?",
+      "choices": [
+        "Dumbledore",
+        "Hagrid",
+        "Voldemort",
+        "Sirius Black"
+      ],
+      "correct": 0,
+      "explanation": "Alvo Dumbledore é diretor de Hogwarts durante boa parte dos livros.",
+      "pack": "hp"
+    },
+    {
+      "id": "q070",
+      "category": "Cultura Pop",
+      "question": "Qual família animada tem Homer e Marge?",
+      "choices": [
+        "Os Simpsons",
+        "Os Flintstones",
+        "Os Jetsons",
+        "Os Incríveis"
+      ],
+      "correct": 0,
+      "explanation": "Homer e Marge são personagens de Os Simpsons."
+    },
+    {
+      "id": "q071",
+      "category": "Games",
+      "question": "Qual personagem é conhecido como encanador de boné vermelho?",
+      "choices": [
+        "Mario",
+        "Sonic",
+        "Link",
+        "Kirby"
+      ],
+      "correct": 0,
+      "explanation": "Mario é um personagem da Nintendo."
+    },
+    {
+      "id": "q072",
+      "category": "Games",
+      "question": "Qual jogo apresenta blocos de construção e creepers?",
+      "choices": [
+        "Minecraft",
+        "Tetris",
+        "Pac-Man",
+        "FIFA"
+      ],
+      "correct": 0,
+      "explanation": "Minecraft é conhecido por seus blocos e criaturas."
+    },
+    {
+      "id": "q073",
+      "category": "Games",
+      "question": "Qual mascote de videogame é um ouriço azul?",
+      "choices": [
+        "Sonic",
+        "Mario",
+        "Crash",
+        "Kirby"
+      ],
+      "correct": 0,
+      "explanation": "Sonic é um ouriço azul."
+    },
+    {
+      "id": "q074",
+      "category": "Games",
+      "question": "Qual criatura amarela é mascote de Pokémon?",
+      "choices": [
+        "Pikachu",
+        "Charmander",
+        "Bulbasaur",
+        "Eevee"
+      ],
+      "correct": 0,
+      "explanation": "Pikachu é um dos rostos de Pokémon."
+    },
+    {
+      "id": "q075",
+      "category": "Games",
+      "question": "Qual jogo é conhecido por encaixar peças que caem?",
+      "choices": [
+        "Tetris",
+        "Minecraft",
+        "Zelda",
+        "Portal"
+      ],
+      "correct": 0,
+      "explanation": "Em Tetris, peças geométricas caem e formam linhas."
+    },
+    {
+      "id": "q076",
+      "category": "Games",
+      "question": "Qual jogo usa a expressão 'Victory Royale'?",
+      "choices": [
+        "Fortnite",
+        "Minecraft",
+        "The Sims",
+        "Pac-Man"
+      ],
+      "correct": 0,
+      "explanation": "Victory Royale é a expressão para vitória no Fortnite."
+    },
+    {
+      "id": "q077",
+      "category": "Música",
+      "question": "Qual instrumento tem teclas brancas e pretas?",
+      "choices": [
+        "Piano",
+        "Violão",
+        "Tambor",
+        "Flauta"
+      ],
+      "correct": 0,
+      "explanation": "O piano possui um teclado com teclas brancas e pretas."
+    },
+    {
+      "id": "q078",
+      "category": "Música",
+      "question": "Qual banda britânica gravou 'Bohemian Rhapsody'?",
+      "choices": [
+        "Queen",
+        "Beatles",
+        "Nirvana",
+        "U2"
+      ],
+      "correct": 0,
+      "explanation": "A música é do Queen."
+    },
+    {
+      "id": "q079",
+      "category": "Música",
+      "question": "Qual instrumento é tocado com baquetas e pedais?",
+      "choices": [
+        "Bateria",
+        "Flauta",
+        "Violino",
+        "Saxofone"
+      ],
+      "correct": 0,
+      "explanation": "Uma bateria usa baquetas e normalmente pedais."
+    },
+    {
+      "id": "q080",
+      "category": "Música",
+      "question": "Qual cantora brasileira é conhecida por 'Show das Poderosas'?",
+      "choices": [
+        "Anitta",
+        "Ivete Sangalo",
+        "Marisa Monte",
+        "Pabllo Vittar"
+      ],
+      "correct": 0,
+      "explanation": "A canção é de Anitta."
+    },
+    {
+      "id": "q081",
+      "category": "Artes",
+      "question": "Qual técnica de arte usa uma câmera para capturar imagens?",
+      "choices": [
+        "Fotografia",
+        "Escultura",
+        "Cerâmica",
+        "Gravura"
+      ],
+      "correct": 0,
+      "explanation": "A fotografia registra imagens com uma câmera."
+    },
+    {
+      "id": "q082",
+      "category": "Artes",
+      "question": "Qual material costuma ser usado para esculpir estátuas?",
+      "choices": [
+        "Mármore",
+        "Papel sulfite",
+        "Algodão",
+        "Areia solta"
+      ],
+      "correct": 0,
+      "explanation": "O mármore é um material tradicional de escultura."
+    },
+    {
+      "id": "q083",
+      "category": "História",
+      "question": "Que povo antigo construiu as pirâmides de Gizé?",
+      "choices": [
+        "Egípcios",
+        "Romanos",
+        "Vikings",
+        "Astecas"
+      ],
+      "correct": 0,
+      "explanation": "As pirâmides de Gizé foram construídas no Egito Antigo."
+    },
+    {
+      "id": "q084",
+      "category": "História",
+      "question": "Em qual século começou o ano de 1901?",
+      "choices": [
+        "Século XX",
+        "Século XIX",
+        "Século XVIII",
+        "Século XXI"
+      ],
+      "correct": 0,
+      "explanation": "O século XX começou em 1901."
+    },
+    {
+      "id": "q085",
+      "category": "História",
+      "question": "Qual navegante chegou ao Brasil em 1500, segundo os registros portugueses?",
+      "choices": [
+        "Pedro Álvares Cabral",
+        "Vasco da Gama",
+        "Cristóvão Colombo",
+        "Fernão de Magalhães"
+      ],
+      "correct": 0,
+      "explanation": "A esquadra liderada por Cabral chegou à costa brasileira em 1500."
+    },
+    {
+      "id": "q086",
+      "category": "História",
+      "question": "Como se chamava a cidade soterrada pelo Vesúvio em 79 d.C.?",
+      "choices": [
+        "Pompeia",
+        "Atenas",
+        "Cartago",
+        "Troia"
+      ],
+      "correct": 0,
+      "explanation": "Pompeia foi afetada pela erupção do Vesúvio."
+    },
+    {
+      "id": "qv7-001",
+      "category": "Astronomia",
+      "question": "Qual planeta é conhecido como Planeta Vermelho?",
+      "choices": [
+        "Marte",
+        "Vênus",
+        "Júpiter",
+        "Urano"
+      ],
+      "correct": 0,
+      "explanation": "Marte tem superfície rica em óxidos de ferro, responsáveis pela aparência avermelhada."
+    },
+    {
+      "id": "qv7-002",
+      "category": "Música",
+      "question": "Qual instrumento tem teclas brancas e pretas?",
+      "choices": [
+        "Piano",
+        "Violão",
+        "Flauta",
+        "Tambor"
+      ],
+      "correct": 0,
+      "explanation": "O piano possui um teclado com teclas brancas e pretas."
+    },
+    {
+      "id": "qv7-003",
+      "category": "Natureza",
+      "question": "Qual animal produz mel?",
+      "choices": [
+        "Abelha",
+        "Borboleta",
+        "Formiga",
+        "Joaninha"
+      ],
+      "correct": 0,
+      "explanation": "As abelhas produzem mel a partir do néctar coletado nas flores."
+    },
+    {
+      "id": "qv7-004",
+      "category": "Gastronomia",
+      "question": "Qual destas frutas é conhecida pela casca espinhosa?",
+      "choices": [
+        "Abacaxi",
+        "Maçã",
+        "Uva",
+        "Pera"
+      ],
+      "correct": 0,
+      "explanation": "O abacaxi possui uma casca rugosa com estruturas pontiagudas."
+    },
+    {
+      "id": "qv7-005",
+      "category": "Esportes",
+      "question": "Em qual esporte se usa uma cesta?",
+      "choices": [
+        "Basquete",
+        "Futebol",
+        "Tênis",
+        "Natação"
+      ],
+      "correct": 0,
+      "explanation": "No basquete, os jogadores tentam acertar a bola na cesta adversária."
+    },
+    {
+      "id": "qv7-006",
+      "category": "Natureza",
+      "question": "Qual destes é um animal marinho?",
+      "choices": [
+        "Golfinho",
+        "Camelo",
+        "Girafa",
+        "Tatu"
+      ],
+      "correct": 0,
+      "explanation": "Golfinhos são mamíferos aquáticos que vivem nos mares e oceanos."
+    },
+    {
+      "id": "qv7-007",
+      "category": "Internet",
+      "question": "Qual aplicativo é popular para mensagens no Brasil?",
+      "choices": [
+        "WhatsApp",
+        "Photoshop",
+        "Excel",
+        "VLC"
+      ],
+      "correct": 0,
+      "explanation": "O WhatsApp é muito usado para mensagens e chamadas no Brasil."
+    },
+    {
+      "id": "qv7-008",
+      "category": "Artes",
+      "question": "Qual destas cores resulta da mistura de azul e amarelo na pintura tradicional?",
+      "choices": [
+        "Verde",
+        "Roxo",
+        "Laranja",
+        "Rosa"
+      ],
+      "correct": 0,
+      "explanation": "Na mistura de tintas tradicional, azul e amarelo produzem verde."
+    },
+    {
+      "id": "qv7-009",
+      "category": "Gastronomia",
+      "question": "Qual destes alimentos é feito de leite?",
+      "choices": [
+        "Queijo",
+        "Arroz",
+        "Feijão",
+        "Farinha de milho"
+      ],
+      "correct": 0,
+      "explanation": "O queijo é produzido por coagulação e processamento de leite."
+    },
+    {
+      "id": "qv7-010",
+      "category": "Games",
+      "question": "Qual destes é um jogo de tabuleiro?",
+      "choices": [
+        "Xadrez",
+        "Pega-pega",
+        "Queimada",
+        "Esconde-esconde"
+      ],
+      "correct": 0,
+      "explanation": "Xadrez é jogado em um tabuleiro de 64 casas."
+    },
+    {
+      "id": "qv7-011",
+      "category": "Geografia",
+      "question": "Qual país tem Buenos Aires como capital?",
+      "choices": [
+        "Argentina",
+        "Uruguai",
+        "Chile",
+        "Paraguai"
+      ],
+      "correct": 0,
+      "explanation": "Buenos Aires é a capital da Argentina."
+    },
+    {
+      "id": "qv7-012",
+      "category": "Geografia",
+      "question": "Qual destes é um continente?",
+      "choices": [
+        "África",
+        "Sergipe",
+        "Amazônia",
+        "Lisboa"
+      ],
+      "correct": 0,
+      "explanation": "A África é um dos continentes do mundo."
+    },
+    {
+      "id": "qv7-013",
+      "category": "Ciência",
+      "question": "Qual destes aparelhos mede a temperatura?",
+      "choices": [
+        "Termômetro",
+        "Régua",
+        "Balança",
+        "Relógio"
+      ],
+      "correct": 0,
+      "explanation": "O termômetro mede temperatura por diferentes tecnologias."
+    },
+    {
+      "id": "qv7-014",
+      "category": "Música",
+      "question": "Qual instrumento musical tem cordas?",
+      "choices": [
+        "Violino",
+        "Flauta",
+        "Trompete",
+        "Pandeiro"
+      ],
+      "correct": 0,
+      "explanation": "O violino é um instrumento de cordas friccionadas."
+    },
+    {
+      "id": "qv7-015",
+      "category": "Esportes",
+      "question": "Qual destes esportes usa raquete?",
+      "choices": [
+        "Tênis",
+        "Boxe",
+        "Judô",
+        "Atletismo"
+      ],
+      "correct": 0,
+      "explanation": "No tênis, a raquete é usada para golpear a bola."
+    },
+    {
+      "id": "qv7-016",
+      "category": "Gastronomia",
+      "question": "Qual destas bebidas normalmente contém cafeína?",
+      "choices": [
+        "Café",
+        "Água",
+        "Suco de uva",
+        "Água de coco"
+      ],
+      "correct": 0,
+      "explanation": "O café contém naturalmente cafeína, uma substância estimulante."
+    },
+    {
+      "id": "qv7-017",
+      "category": "Astronomia",
+      "question": "Qual é o nome da estrela do Sistema Solar?",
+      "choices": [
+        "Sol",
+        "Lua",
+        "Marte",
+        "Saturno"
+      ],
+      "correct": 0,
+      "explanation": "O Sol é a estrela em torno da qual orbitam os planetas do Sistema Solar."
+    },
+    {
+      "id": "qv7-018",
+      "category": "Games",
+      "question": "Qual personagem da Nintendo usa boné com a letra M?",
+      "choices": [
+        "Mario",
+        "Link",
+        "Kirby",
+        "Sonic"
+      ],
+      "correct": 0,
+      "explanation": "Mario usa um boné vermelho com a letra M."
+    },
+    {
+      "id": "qv7-019",
+      "category": "Internet",
+      "question": "Qual destes é um navegador de internet?",
+      "choices": [
+        "Firefox",
+        "PowerPoint",
+        "Paint",
+        "Calculadora"
+      ],
+      "correct": 0,
+      "explanation": "O Firefox permite acessar e navegar por páginas na web."
+    },
+    {
+      "id": "qv7-020",
+      "category": "Saúde",
+      "question": "O que se usa para proteger a pele dos raios solares?",
+      "choices": [
+        "Protetor solar",
+        "Shampoo",
+        "Desodorante",
+        "Sabonete"
+      ],
+      "correct": 0,
+      "explanation": "Protetor solar ajuda a proteger a pele da radiação ultravioleta."
+    },
+    {
+      "id": "qv7-021",
+      "category": "Natureza",
+      "question": "Qual destes é uma ave?",
+      "choices": [
+        "Papagaio",
+        "Golfinho",
+        "Lagarto",
+        "Tubarão"
+      ],
+      "correct": 0,
+      "explanation": "Papagaios são aves com penas, bico e asas."
+    },
+    {
+      "id": "qv7-022",
+      "category": "Matemática",
+      "question": "Qual destas unidades mede distância?",
+      "choices": [
+        "Quilômetro",
+        "Quilograma",
+        "Litro",
+        "Segundo"
+      ],
+      "correct": 0,
+      "explanation": "Quilômetros são unidades de comprimento e distância."
+    },
+    {
+      "id": "qv7-023",
+      "category": "Gastronomia",
+      "question": "Qual destes alimentos costuma ser usado no sushi?",
+      "choices": [
+        "Arroz",
+        "Macarrão",
+        "Pão",
+        "Batata frita"
+      ],
+      "correct": 0,
+      "explanation": "Sushi tradicionalmente usa arroz temperado como base."
+    },
+    {
+      "id": "qv7-024",
+      "category": "Cinema e TV",
+      "question": "Qual desses personagens aparece em Toy Story?",
+      "choices": [
+        "Woody",
+        "Shrek",
+        "Gru",
+        "Simba"
+      ],
+      "correct": 0,
+      "explanation": "Woody é um dos protagonistas da animação Toy Story."
+    },
+    {
+      "id": "qv7-025",
+      "category": "Saúde",
+      "question": "Qual órgão humano bombeia sangue?",
+      "choices": [
+        "Coração",
+        "Pulmão",
+        "Estômago",
+        "Rim"
+      ],
+      "correct": 0,
+      "explanation": "O coração impulsiona o sangue pela circulação do corpo."
+    },
+    {
+      "id": "qv7-026",
+      "category": "Astronomia",
+      "question": "Qual objeto é usado para observar estrelas distantes?",
+      "choices": [
+        "Telescópio",
+        "Microscópio",
+        "Bússola",
+        "Barômetro"
+      ],
+      "correct": 0,
+      "explanation": "Telescópios coletam luz de objetos astronômicos distantes."
+    },
+    {
+      "id": "qv7-027",
+      "category": "Música",
+      "question": "Qual gênero musical é associado ao carnaval carioca?",
+      "choices": [
+        "Samba",
+        "Country",
+        "K-pop",
+        "Ópera"
+      ],
+      "correct": 0,
+      "explanation": "O samba tem forte ligação histórica com escolas de samba e carnaval."
+    },
+    {
+      "id": "qv7-028",
+      "category": "Natureza",
+      "question": "Qual animal é conhecido por mudar de cor para camuflagem?",
+      "choices": [
+        "Camaleão",
+        "Vaca",
+        "Pinguim",
+        "Elefante"
+      ],
+      "correct": 0,
+      "explanation": "Alguns camaleões mudam de cor para comunicação e regulação térmica, além de camuflagem."
+    },
+    {
+      "id": "qv7-029",
+      "category": "Astronomia",
+      "question": "Qual destes é um planeta com anéis bem visíveis?",
+      "choices": [
+        "Saturno",
+        "Mercúrio",
+        "Marte",
+        "Vênus"
+      ],
+      "correct": 0,
+      "explanation": "Saturno tem um sistema de anéis especialmente proeminente."
+    },
+    {
+      "id": "qv7-030",
+      "category": "Esportes",
+      "question": "Qual esporte tem goleiro e traves?",
+      "choices": [
+        "Handebol",
+        "Natação",
+        "Tênis",
+        "Vôlei"
+      ],
+      "correct": 0,
+      "explanation": "No handebol, jogadores tentam marcar gols defendidos pelo goleiro."
+    },
+    {
+      "id": "qv8-001",
+      "category": "Natureza",
+      "question": "Qual animal pode se orientar usando ecolocalização?",
+      "choices": [
+        "Morcego",
+        "Cavalo",
+        "Galinha",
+        "Tartaruga"
+      ],
+      "correct": 0,
+      "explanation": "Morcegos emitem sons e usam o eco para perceber obstáculos e presas."
+    },
+    {
+      "id": "qv8-002",
+      "category": "Esportes",
+      "question": "No xadrez, qual peça se move em formato de L?",
+      "choices": [
+        "Bispo",
+        "Cavalo",
+        "Torre",
+        "Rei"
+      ],
+      "correct": 1,
+      "explanation": "O cavalo se desloca duas casas em uma direção e uma na perpendicular."
+    },
+    {
+      "id": "qv8-003",
+      "category": "Ciência",
+      "question": "Qual instrumento é usado para medir a temperatura?",
+      "choices": [
+        "Bússola",
+        "Régua",
+        "Termômetro",
+        "Balança"
+      ],
+      "correct": 2,
+      "explanation": "O termômetro mede a temperatura de corpos ou ambientes."
+    },
+    {
+      "id": "qv8-004",
+      "category": "Artes",
+      "question": "Ao misturar tintas azuis e amarelas, qual cor geralmente surge?",
+      "choices": [
+        "Roxa",
+        "Verde",
+        "Vermelha",
+        "Laranja"
+      ],
+      "correct": 1,
+      "explanation": "Na mistura tradicional de pigmentos, azul e amarelo produzem verde."
+    },
+    {
+      "id": "qv8-005",
+      "category": "Esportes",
+      "question": "No futebol, qual cartão significa expulsão?",
+      "choices": [
+        "Azul",
+        "Amarelo",
+        "Verde",
+        "Vermelho"
+      ],
+      "correct": 3,
+      "explanation": "O cartão vermelho determina a saída do jogador da partida."
+    },
+    {
+      "id": "qv8-006",
+      "category": "Geografia",
+      "question": "Qual país abriga a cidade histórica de Machu Picchu?",
+      "choices": [
+        "Peru",
+        "México",
+        "Chile",
+        "Colômbia"
+      ],
+      "correct": 0,
+      "explanation": "Machu Picchu está nos Andes peruanos."
+    },
+    {
+      "id": "qv8-007",
+      "category": "Gastronomia",
+      "question": "Qual fruta é o ingrediente principal do guacamole?",
+      "choices": [
+        "Morango",
+        "Mamão",
+        "Abacate",
+        "Banana"
+      ],
+      "correct": 2,
+      "explanation": "O guacamole tradicional é feito principalmente com abacate."
+    },
+    {
+      "id": "qv8-008",
+      "category": "Matemática",
+      "question": "Quantos lados tem um octógono?",
+      "choices": [
+        "Seis",
+        "Sete",
+        "Oito",
+        "Nove"
+      ],
+      "correct": 2,
+      "explanation": "O prefixo octo indica oito; um octógono tem oito lados."
+    },
+    {
+      "id": "qv8-009",
+      "category": "Natureza",
+      "question": "Qual destes animais é mamífero?",
+      "choices": [
+        "Tubarão",
+        "Golfinho",
+        "Sapo",
+        "Pinguim"
+      ],
+      "correct": 1,
+      "explanation": "Golfinhos respiram ar com pulmões e amamentam seus filhotes."
+    },
+    {
+      "id": "qv8-010",
+      "category": "Literatura",
+      "question": "Quem escreveu o romance Dom Casmurro?",
+      "choices": [
+        "Clarice Lispector",
+        "Jorge Amado",
+        "Machado de Assis",
+        "José de Alencar"
+      ],
+      "correct": 2,
+      "explanation": "Dom Casmurro é um romance de Machado de Assis, publicado em 1899."
+    },
+    {
+      "id": "qv8-011",
+      "category": "Tecnologia",
+      "question": "Qual dispositivo é usado para fornecer energia a um celular?",
+      "choices": [
+        "Roteador",
+        "Carregador",
+        "Microfone",
+        "Scanner"
+      ],
+      "correct": 1,
+      "explanation": "O carregador fornece energia elétrica para recarregar a bateria."
+    },
+    {
+      "id": "qv8-012",
+      "category": "Natureza",
+      "question": "Qual parte da planta geralmente absorve água do solo?",
+      "choices": [
+        "Flor",
+        "Folha",
+        "Fruto",
+        "Raiz"
+      ],
+      "correct": 3,
+      "explanation": "As raízes absorvem água e nutrientes minerais do solo."
+    },
+    {
+      "id": "qv8-013",
+      "category": "Astronomia",
+      "question": "Qual é o planeta mais próximo do Sol?",
+      "choices": [
+        "Vênus",
+        "Mercúrio",
+        "Terra",
+        "Marte"
+      ],
+      "correct": 1,
+      "explanation": "Mercúrio é o planeta que orbita mais perto do Sol."
+    },
+    {
+      "id": "qv8-014",
+      "category": "Esportes",
+      "question": "Qual esporte usa raquete e peteca?",
+      "choices": [
+        "Badminton",
+        "Handebol",
+        "Futebol",
+        "Golfe"
+      ],
+      "correct": 0,
+      "explanation": "O badminton usa raquetes para trocar uma peteca sobre a rede."
+    },
+    {
+      "id": "qv8-015",
+      "category": "Cotidiano",
+      "question": "Qual ferramenta é normalmente usada para apertar um parafuso de fenda?",
+      "choices": [
+        "Martelo",
+        "Chave de fenda",
+        "Alicate de pressão",
+        "Trena"
+      ],
+      "correct": 1,
+      "explanation": "A chave de fenda encaixa na ranhura do parafuso."
+    },
+    {
+      "id": "qv8-016",
+      "category": "Gastronomia",
+      "question": "Qual destes alimentos costuma ser feito a partir de cacau?",
+      "choices": [
+        "Chocolate",
+        "Queijo",
+        "Pipoca",
+        "Macarrão"
+      ],
+      "correct": 0,
+      "explanation": "Chocolate é produzido com derivados do cacau."
+    },
+    {
+      "id": "qv8-017",
+      "category": "Tecnologia",
+      "question": "Qual tecla normalmente apaga o caractere à esquerda do cursor?",
+      "choices": [
+        "Enter",
+        "Shift",
+        "Backspace",
+        "Tab"
+      ],
+      "correct": 2,
+      "explanation": "Backspace costuma apagar o caractere antes da posição do cursor."
+    },
+    {
+      "id": "qv8-018",
+      "category": "Brasil",
+      "question": "Qual cidade brasileira é conhecida por seu frevo?",
+      "choices": [
+        "Recife",
+        "Manaus",
+        "Brasília",
+        "Curitiba"
+      ],
+      "correct": 0,
+      "explanation": "O frevo é uma manifestação cultural tradicional de Pernambuco, especialmente do Recife."
+    },
+    {
+      "id": "qpop1-lotr-01",
+      "category": "Cultura Pop",
+      "question": "Em O Senhor dos Anéis, quem herda o Um Anel de Bilbo?",
+      "choices": [
+        "Frodo",
+        "Sam",
+        "Gimli",
+        "Boromir"
+      ],
+      "correct": 0,
+      "explanation": "Bilbo deixa o Um Anel a Frodo, seu herdeiro.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-02",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome da região onde os hobbits da Sociedade vivem inicialmente?",
+      "choices": [
+        "Gondor",
+        "Condado",
+        "Mordor",
+        "Rohan"
+      ],
+      "correct": 1,
+      "explanation": "O Condado é a terra natal dos quatro hobbits.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-03",
+      "category": "Cultura Pop",
+      "question": "Qual personagem da Sociedade é um elfo?",
+      "choices": [
+        "Boromir",
+        "Sam",
+        "Legolas",
+        "Gimli"
+      ],
+      "correct": 2,
+      "explanation": "Legolas é um elfo da Floresta das Trevas.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-04",
+      "category": "Cultura Pop",
+      "question": "Quem acompanha Frodo até a Montanha da Perdição?",
+      "choices": [
+        "Aragorn",
+        "Gandalf",
+        "Merry",
+        "Sam"
+      ],
+      "correct": 3,
+      "explanation": "Sam segue Frodo até Mordor e a Montanha da Perdição.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-05",
+      "category": "Cultura Pop",
+      "question": "Em qual região fica a Montanha da Perdição?",
+      "choices": [
+        "Mordor",
+        "Rohan",
+        "Condado",
+        "Valfenda"
+      ],
+      "correct": 0,
+      "explanation": "A Montanha da Perdição fica em Mordor, onde o Anel foi forjado.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-06",
+      "category": "Cultura Pop",
+      "question": "Qual é a arma característica de Gimli nos filmes?",
+      "choices": [
+        "Lança",
+        "Machado",
+        "Arco",
+        "Cajado"
+      ],
+      "correct": 1,
+      "explanation": "Gimli combate sobretudo com seus machados.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-07",
+      "category": "Cultura Pop",
+      "question": "Qual personagem possui o Um Anel imediatamente antes de Bilbo encontrá-lo?",
+      "choices": [
+        "Saruman",
+        "Elrond",
+        "Sméagol (Gollum)",
+        "Arwen"
+      ],
+      "correct": 2,
+      "explanation": "Sméagol toma o Anel de Déagol após este encontrá-lo e o possui até perdê-lo na caverna.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-08",
+      "category": "Cultura Pop",
+      "question": "Quem é o pai de Faramir e Boromir?",
+      "choices": [
+        "Théoden",
+        "Elrond",
+        "Isildur",
+        "Denethor"
+      ],
+      "correct": 3,
+      "explanation": "Denethor governa Gondor como regente e é pai dos dois irmãos.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-09",
+      "category": "Cultura Pop",
+      "question": "Quem governa Rohan em As Duas Torres?",
+      "choices": [
+        "Théoden",
+        "Aragorn",
+        "Sauron",
+        "Saruman"
+      ],
+      "correct": 0,
+      "explanation": "Théoden é o rei de Rohan.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-10",
+      "category": "Cultura Pop",
+      "question": "Qual dragão ocupa a Montanha Solitária em O Hobbit?",
+      "choices": [
+        "Ancalagon",
+        "Smaug",
+        "Balrog",
+        "Glaurung"
+      ],
+      "correct": 1,
+      "explanation": "Smaug tomou Erebor e guardava o tesouro dos anões.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-11",
+      "category": "Cultura Pop",
+      "question": "Quem conduz a companhia dos anões em O Hobbit?",
+      "choices": [
+        "Gimli",
+        "Dáin",
+        "Thorin",
+        "Balin"
+      ],
+      "correct": 2,
+      "explanation": "Thorin Escudo de Carvalho lidera a expedição para Erebor.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-12",
+      "category": "Cultura Pop",
+      "question": "Qual mago é conhecido inicialmente como o Cinzento?",
+      "choices": [
+        "Saruman",
+        "Radagast",
+        "Elrond",
+        "Gandalf"
+      ],
+      "correct": 3,
+      "explanation": "Gandalf é chamado de Gandalf, o Cinzento, antes de retornar como o Branco.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-13",
+      "category": "Cultura Pop",
+      "question": "Quem forjou o Um Anel?",
+      "choices": [
+        "Sauron",
+        "Saruman",
+        "Celebrimbor",
+        "Isildur"
+      ],
+      "correct": 0,
+      "explanation": "Sauron forjou o Um Anel para dominar os demais anéis de poder.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-lotr-14",
+      "category": "Cultura Pop",
+      "question": "Qual é a ordem correta dos filmes da trilogia de Peter Jackson?",
+      "choices": [
+        "Sociedade do Anel, O Retorno do Rei, As Duas Torres",
+        "Sociedade do Anel, As Duas Torres, O Retorno do Rei",
+        "As Duas Torres, Sociedade do Anel, O Retorno do Rei",
+        "O Retorno do Rei, Sociedade do Anel, As Duas Torres"
+      ],
+      "correct": 1,
+      "explanation": "A trilogia foi lançada nessa ordem, entre 2001 e 2003.",
+      "pack": "lotr"
+    },
+    {
+      "id": "qpop1-hp-01",
+      "category": "Cultura Pop",
+      "question": "Para qual casa de Hogwarts Harry Potter é selecionado?",
+      "choices": [
+        "Grifinória",
+        "Sonserina",
+        "Corvinal",
+        "Lufa-Lufa"
+      ],
+      "correct": 0,
+      "explanation": "O Chapéu Seletor coloca Harry na Grifinória.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-02",
+      "category": "Cultura Pop",
+      "question": "Qual é o esporte jogado em vassouras na saga Harry Potter?",
+      "choices": [
+        "Corrida de hipogrifos",
+        "Quadribol",
+        "Xadrez bruxo",
+        "Duelos"
+      ],
+      "correct": 1,
+      "explanation": "O Quadribol é disputado por equipes que voam em vassouras.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-03",
+      "category": "Cultura Pop",
+      "question": "Qual é a posição de Harry no time de Quadribol?",
+      "choices": [
+        "Goleiro",
+        "Batedor",
+        "Apanhador",
+        "Artilheiro"
+      ],
+      "correct": 2,
+      "explanation": "O apanhador busca o Pomo de Ouro.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-04",
+      "category": "Cultura Pop",
+      "question": "Como se chama a coruja de Harry?",
+      "choices": [
+        "Bichento",
+        "Perebas",
+        "Fawkes",
+        "Edwiges"
+      ],
+      "correct": 3,
+      "explanation": "Edwiges é a coruja branca que acompanha Harry.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-05",
+      "category": "Cultura Pop",
+      "question": "Qual personagem é conhecido como o Príncipe Mestiço?",
+      "choices": [
+        "Severo Snape",
+        "Sirius Black",
+        "Rúbeo Hagrid",
+        "Remo Lupin"
+      ],
+      "correct": 0,
+      "explanation": "Snape revela que é o Príncipe Mestiço.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-06",
+      "category": "Cultura Pop",
+      "question": "Qual feitiço costuma desarmar um adversário?",
+      "choices": [
+        "Accio",
+        "Expelliarmus",
+        "Lumos",
+        "Alohomora"
+      ],
+      "correct": 1,
+      "explanation": "Expelliarmus é o feitiço de desarme.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-07",
+      "category": "Cultura Pop",
+      "question": "Qual feitiço produz luz na ponta da varinha?",
+      "choices": [
+        "Obliviate",
+        "Riddikulus",
+        "Lumos",
+        "Nox"
+      ],
+      "correct": 2,
+      "explanation": "Lumos ilumina a ponta da varinha, e Nox apaga a luz.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-08",
+      "category": "Cultura Pop",
+      "question": "Qual personagem cuida das chaves e dos terrenos de Hogwarts no início da saga?",
+      "choices": [
+        "Filch",
+        "Dumbledore",
+        "Neville",
+        "Hagrid"
+      ],
+      "correct": 3,
+      "explanation": "Rúbeo Hagrid atua como guarda-caça e guardião das chaves e terrenos de Hogwarts.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-09",
+      "category": "Cultura Pop",
+      "question": "Qual animal é o patrono corpóreo de Harry?",
+      "choices": [
+        "Cervo",
+        "Lontra",
+        "Fênix",
+        "Lobo"
+      ],
+      "correct": 0,
+      "explanation": "O patrono de Harry assume a forma de um cervo.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-10",
+      "category": "Cultura Pop",
+      "question": "Qual objeto Harry recebe e usa para se tornar invisível?",
+      "choices": [
+        "Mapa do Maroto",
+        "Capa da Invisibilidade",
+        "Pedra Filosofal",
+        "Pomo de Ouro"
+      ],
+      "correct": 1,
+      "explanation": "Harry recebe a Capa da Invisibilidade em seu primeiro Natal em Hogwarts.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-11",
+      "category": "Cultura Pop",
+      "question": "Qual criatura petrifica vítimas que a veem indiretamente em A Câmara Secreta?",
+      "choices": [
+        "Acromântula",
+        "Dementador",
+        "Basilisco",
+        "Hipogrifo"
+      ],
+      "correct": 2,
+      "explanation": "O basilisco mata com o olhar direto e petrifica quando visto indiretamente.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-12",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome de nascimento de Lord Voldemort?",
+      "choices": [
+        "Lucius Malfoy",
+        "Gellert Grindelwald",
+        "Barty Crouch",
+        "Tom Riddle"
+      ],
+      "correct": 3,
+      "explanation": "Tom Riddle, chamado Tom Servolo Riddle na tradução brasileira, adota o nome Voldemort.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-13",
+      "category": "Cultura Pop",
+      "question": "Qual personagem é um elfo doméstico liberto por Harry?",
+      "choices": [
+        "Dobby",
+        "Kreacher",
+        "Winky",
+        "Fawkes"
+      ],
+      "correct": 0,
+      "explanation": "Harry ajuda Dobby a obter uma meia e conquistar sua liberdade.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-hp-14",
+      "category": "Cultura Pop",
+      "question": "Qual escola participa do Torneio Tribruxo além de Hogwarts e Durmstrang?",
+      "choices": [
+        "Mahoutokoro",
+        "Beauxbatons",
+        "Ilvermorny",
+        "Castelobruxo"
+      ],
+      "correct": 1,
+      "explanation": "Beauxbatons participa do torneio apresentado em O Cálice de Fogo.",
+      "pack": "hp"
+    },
+    {
+      "id": "qpop1-marvel-01",
+      "category": "Cultura Pop",
+      "question": "Qual herói é a identidade de Tony Stark no MCU?",
+      "choices": [
+        "Homem de Ferro",
+        "Capitão América",
+        "Gavião Arqueiro",
+        "Doutor Estranho"
+      ],
+      "correct": 0,
+      "explanation": "Tony Stark constrói e usa as armaduras do Homem de Ferro.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-02",
+      "category": "Cultura Pop",
+      "question": "Qual personagem usa o escudo característico no filme Capitão América: O Primeiro Vingador?",
+      "choices": [
+        "Peter Quill",
+        "Steve Rogers",
+        "Bruce Banner",
+        "Clint Barton"
+      ],
+      "correct": 1,
+      "explanation": "Steve Rogers torna-se o Capitão América.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-03",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome civil do Hulk no MCU?",
+      "choices": [
+        "Scott Lang",
+        "Sam Wilson",
+        "Bruce Banner",
+        "Stephen Strange"
+      ],
+      "correct": 2,
+      "explanation": "Bruce Banner transforma-se no Hulk após exposição à radiação gama.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-04",
+      "category": "Cultura Pop",
+      "question": "Qual país fictício aparece em Pantera Negra (2018)?",
+      "choices": [
+        "Latvéria",
+        "Sokovia",
+        "Asgard",
+        "Wakanda"
+      ],
+      "correct": 3,
+      "explanation": "Wakanda é o país fictício governado por T’Challa.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-05",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome do martelo clássico de Thor?",
+      "choices": [
+        "Mjolnir",
+        "Stormbreaker",
+        "Gungnir",
+        "Excalibur"
+      ],
+      "correct": 0,
+      "explanation": "Mjolnir é o martelo usado por Thor antes de Stormbreaker.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-06",
+      "category": "Cultura Pop",
+      "question": "Que nome civil tem a Viúva Negra no MCU?",
+      "choices": [
+        "Hope van Dyne",
+        "Natasha Romanoff",
+        "Wanda Maximoff",
+        "Carol Danvers"
+      ],
+      "correct": 1,
+      "explanation": "Natasha Romanoff é a agente conhecida como Viúva Negra.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-07",
+      "category": "Cultura Pop",
+      "question": "Quem busca reunir as seis Joias do Infinito em Guerra Infinita?",
+      "choices": [
+        "Loki",
+        "Ego",
+        "Thanos",
+        "Ultron"
+      ],
+      "correct": 2,
+      "explanation": "Thanos procura as seis joias para executar seu plano.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-08",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome do melhor amigo de Steve Rogers que vira o Soldado Invernal?",
+      "choices": [
+        "Sam Wilson",
+        "Nick Fury",
+        "Clint Barton",
+        "Bucky Barnes"
+      ],
+      "correct": 3,
+      "explanation": "Bucky Barnes torna-se o Soldado Invernal após ser capturado pela HYDRA.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-09",
+      "category": "Cultura Pop",
+      "question": "Quem reúne a equipe por meio da Iniciativa Vingadores no primeiro filme?",
+      "choices": [
+        "Nick Fury",
+        "Phil Coulson",
+        "Happy Hogan",
+        "Odin"
+      ],
+      "correct": 0,
+      "explanation": "Nick Fury atua como diretor da S.H.I.E.L.D. e reúne a equipe.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-10",
+      "category": "Cultura Pop",
+      "question": "Qual personagem dos Guardiões costuma dizer Eu sou Groot?",
+      "choices": [
+        "Gamora",
+        "Groot",
+        "Rocket",
+        "Drax"
+      ],
+      "correct": 1,
+      "explanation": "Groot é a criatura semelhante a uma árvore do grupo.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-11",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome civil do Homem-Aranha interpretado por Tom Holland?",
+      "choices": [
+        "Ben Reilly",
+        "Eddie Brock",
+        "Peter Parker",
+        "Miles Morales"
+      ],
+      "correct": 2,
+      "explanation": "Tom Holland interpreta Peter Parker no MCU.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-12",
+      "category": "Cultura Pop",
+      "question": "Qual ator interpreta o Doutor Estranho no MCU?",
+      "choices": [
+        "Chris Evans",
+        "Mark Ruffalo",
+        "Jeremy Renner",
+        "Benedict Cumberbatch"
+      ],
+      "correct": 3,
+      "explanation": "Benedict Cumberbatch interpreta Stephen Strange.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-13",
+      "category": "Cultura Pop",
+      "question": "Qual é o codinome de Carol Danvers?",
+      "choices": [
+        "Capitã Marvel",
+        "Feiticeira Escarlate",
+        "Vespa",
+        "Viúva Negra"
+      ],
+      "correct": 0,
+      "explanation": "Carol Danvers é a Capitã Marvel.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-marvel-14",
+      "category": "Cultura Pop",
+      "question": "Qual organização aparece infiltrada pela HYDRA em O Soldado Invernal?",
+      "choices": [
+        "Dora Milaje",
+        "S.H.I.E.L.D.",
+        "Wakanda",
+        "Guardiões da Galáxia"
+      ],
+      "correct": 1,
+      "explanation": "A trama revela que a HYDRA infiltrou a S.H.I.E.L.D.",
+      "pack": "marvel"
+    },
+    {
+      "id": "qpop1-anime-01",
+      "category": "Cultura Pop",
+      "question": "Qual é o sonho de Luffy em One Piece?",
+      "choices": [
+        "Ser o Rei dos Piratas",
+        "Ser Hokage",
+        "Ser o melhor treinador Pokémon",
+        "Encontrar as Esferas do Dragão"
+      ],
+      "correct": 0,
+      "explanation": "Luffy parte em busca do One Piece para se tornar Rei dos Piratas.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-02",
+      "category": "Cultura Pop",
+      "question": "Quem é o espadachim dos Chapéus de Palha em One Piece?",
+      "choices": [
+        "Chopper",
+        "Zoro",
+        "Sanji",
+        "Usopp"
+      ],
+      "correct": 1,
+      "explanation": "Zoro é conhecido por seu estilo de três espadas.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-03",
+      "category": "Cultura Pop",
+      "question": "Qual personagem de Naruto sonha se tornar Hokage?",
+      "choices": [
+        "Shikamaru Nara",
+        "Gaara",
+        "Naruto Uzumaki",
+        "Sasuke Uchiha"
+      ],
+      "correct": 2,
+      "explanation": "Naruto declara repetidamente seu sonho de tornar-se Hokage.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-04",
+      "category": "Cultura Pop",
+      "question": "Quem é o sensei do Time 7 original de Naruto?",
+      "choices": [
+        "Asuma Sarutobi",
+        "Jiraiya",
+        "Iruka Umino",
+        "Kakashi Hatake"
+      ],
+      "correct": 3,
+      "explanation": "Kakashi lidera Naruto, Sasuke e Sakura no Time 7.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-05",
+      "category": "Cultura Pop",
+      "question": "Qual clã de Naruto é conhecido pelo Sharingan?",
+      "choices": [
+        "Uchiha",
+        "Nara",
+        "Akimichi",
+        "Inuzuka"
+      ],
+      "correct": 0,
+      "explanation": "O Sharingan é uma habilidade ocular associada ao clã Uchiha.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-06",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome do irmão de Sasuke Uchiha?",
+      "choices": [
+        "Shisui",
+        "Itachi",
+        "Obito",
+        "Madara"
+      ],
+      "correct": 1,
+      "explanation": "Itachi Uchiha é o irmão mais velho de Sasuke.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-07",
+      "category": "Cultura Pop",
+      "question": "Qual é o nome do filho mais velho de Goku em Dragon Ball?",
+      "choices": [
+        "Trunks",
+        "Vegeta",
+        "Gohan",
+        "Goten"
+      ],
+      "correct": 2,
+      "explanation": "Gohan é o filho mais velho de Goku e Chi-Chi.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-08",
+      "category": "Cultura Pop",
+      "question": "Qual personagem de Dragon Ball é príncipe dos saiyajins?",
+      "choices": [
+        "Goku",
+        "Piccolo",
+        "Kuririn",
+        "Vegeta"
+      ],
+      "correct": 3,
+      "explanation": "Vegeta é apresentado como príncipe dos saiyajins.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-09",
+      "category": "Cultura Pop",
+      "question": "Em Demon Slayer, quem é a irmã de Tanjiro Kamado?",
+      "choices": [
+        "Nezuko",
+        "Shinobu",
+        "Mitsuri",
+        "Kanao"
+      ],
+      "correct": 0,
+      "explanation": "Nezuko é a irmã mais nova de Tanjiro e se torna oni.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-10",
+      "category": "Cultura Pop",
+      "question": "Qual é a cor característica do cabelo de Zenitsu em Demon Slayer?",
+      "choices": [
+        "Roxo",
+        "Amarelo",
+        "Verde",
+        "Azul"
+      ],
+      "correct": 1,
+      "explanation": "Zenitsu é reconhecível por seus cabelos loiros/amarelos.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-11",
+      "category": "Cultura Pop",
+      "question": "Em Death Note, quem encontra o caderno que Ryuk deixa cair?",
+      "choices": [
+        "Mello",
+        "Near",
+        "Light Yagami",
+        "L"
+      ],
+      "correct": 2,
+      "explanation": "Light encontra o Death Note e passa a usá-lo.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-12",
+      "category": "Cultura Pop",
+      "question": "Qual shinigami acompanha Light em Death Note?",
+      "choices": [
+        "Rem",
+        "Sidoh",
+        "Gelus",
+        "Ryuk"
+      ],
+      "correct": 3,
+      "explanation": "Ryuk deixa o caderno no mundo humano e acompanha Light.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-13",
+      "category": "Cultura Pop",
+      "question": "Qual personagem é amigo de infância de Eren e Mikasa em Attack on Titan?",
+      "choices": [
+        "Armin Arlert",
+        "Levi Ackerman",
+        "Erwin Smith",
+        "Reiner Braun"
+      ],
+      "correct": 0,
+      "explanation": "Armin cresce com Eren e Mikasa e integra o trio central.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-14",
+      "category": "Cultura Pop",
+      "question": "Qual é o primeiro parceiro de Ash no anime Pokémon?",
+      "choices": [
+        "Squirtle",
+        "Pikachu",
+        "Charmander",
+        "Bulbasaur"
+      ],
+      "correct": 1,
+      "explanation": "Ash chega atrasado ao laboratório e recebe Pikachu.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-15",
+      "category": "Cultura Pop",
+      "question": "Em My Hero Academia, qual é o nome civil de Deku?",
+      "choices": [
+        "Shoto Todoroki",
+        "Tenya Iida",
+        "Izuku Midoriya",
+        "Katsuki Bakugo"
+      ],
+      "correct": 2,
+      "explanation": "Deku é o apelido de herói de Izuku Midoriya.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-anime-16",
+      "category": "Cultura Pop",
+      "question": "Qual é o protagonista de Jujutsu Kaisen?",
+      "choices": [
+        "Satoru Gojo",
+        "Megumi Fushiguro",
+        "Yuta Okkotsu",
+        "Yuji Itadori"
+      ],
+      "correct": 3,
+      "explanation": "Yuji Itadori é o protagonista da série principal.",
+      "pack": "anime"
+    },
+    {
+      "id": "qpop1-screen-01",
+      "category": "Cinema e TV",
+      "question": "Em Friends, qual é o nome do café frequentado pelos seis amigos?",
+      "choices": [
+        "Central Perk",
+        "Monk’s Café",
+        "MacLaren’s Pub",
+        "Luke’s Diner"
+      ],
+      "correct": 0,
+      "explanation": "Central Perk é o café recorrente na série.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-02",
+      "category": "Cinema e TV",
+      "question": "Qual personagem de Friends trabalha como paleontólogo?",
+      "choices": [
+        "Monica",
+        "Ross",
+        "Chandler",
+        "Joey"
+      ],
+      "correct": 1,
+      "explanation": "Ross Geller é paleontólogo.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-03",
+      "category": "Cinema e TV",
+      "question": "Qual personagem dos Simpsons trabalha na usina nuclear?",
+      "choices": [
+        "Marge",
+        "Lisa",
+        "Homer",
+        "Bart"
+      ],
+      "correct": 2,
+      "explanation": "Homer Simpson trabalha na usina nuclear de Springfield.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-04",
+      "category": "Cinema e TV",
+      "question": "Qual é o nome da cidade fictícia dos Simpsons?",
+      "choices": [
+        "Quahog",
+        "South Park",
+        "Shelbyville",
+        "Springfield"
+      ],
+      "correct": 3,
+      "explanation": "A série acompanha principalmente os moradores de Springfield.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-05",
+      "category": "Cinema e TV",
+      "question": "Em Stranger Things, como se chama a dimensão paralela sombria?",
+      "choices": [
+        "Mundo Invertido",
+        "Terra de Oz",
+        "Zona Fantasma",
+        "País das Maravilhas"
+      ],
+      "correct": 0,
+      "explanation": "O Mundo Invertido é a dimensão que ameaça Hawkins.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-06",
+      "category": "Cinema e TV",
+      "question": "Qual personagem de Stranger Things é conhecida pelo número Onze?",
+      "choices": [
+        "Robin",
+        "Eleven",
+        "Max",
+        "Nancy"
+      ],
+      "correct": 1,
+      "explanation": "Eleven, ou Onze, possui habilidades psíquicas.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-07",
+      "category": "Cinema e TV",
+      "question": "Qual ator interpreta Neo na trilogia Matrix?",
+      "choices": [
+        "Tom Cruise",
+        "Brad Pitt",
+        "Keanu Reeves",
+        "Laurence Fishburne"
+      ],
+      "correct": 2,
+      "explanation": "Keanu Reeves interpreta Thomas Anderson, conhecido como Neo.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-08",
+      "category": "Cinema e TV",
+      "question": "Qual lado da Força Darth Vader serve na trilogia original de Star Wars antes de sua redenção?",
+      "choices": [
+        "Ordem Jedi",
+        "Aliança Rebelde",
+        "Resistência",
+        "Lado sombrio"
+      ],
+      "correct": 3,
+      "explanation": "Darth Vader atua como lorde Sith antes de sua redenção.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-09",
+      "category": "Cinema e TV",
+      "question": "Como se chama a famosa nave pilotada por Han Solo na trilogia original de Star Wars?",
+      "choices": [
+        "Millennium Falcon",
+        "X-wing",
+        "TIE Fighter",
+        "Estrela da Morte"
+      ],
+      "correct": 0,
+      "explanation": "Han Solo pilota a Millennium Falcon, a famosa nave cargueira.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-10",
+      "category": "Cinema e TV",
+      "question": "Em Jurassic Park (1993), qual animal está no logotipo do parque?",
+      "choices": [
+        "Braquiossauro",
+        "Tiranossauro",
+        "Velociraptor",
+        "Tricerátopo"
+      ],
+      "correct": 1,
+      "explanation": "O emblemático esqueleto do logotipo representa um tiranossauro.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-11",
+      "category": "Cinema e TV",
+      "question": "Em The Office (EUA), quem é o gerente regional de Scranton no início da série?",
+      "choices": [
+        "Dwight Schrute",
+        "Andy Bernard",
+        "Michael Scott",
+        "Jim Halpert"
+      ],
+      "correct": 2,
+      "explanation": "Michael Scott chefia a filial no começo da série.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-12",
+      "category": "Cinema e TV",
+      "question": "Qual filme da Pixar acompanha um rato que deseja cozinhar em Paris?",
+      "choices": [
+        "Up",
+        "Carros",
+        "Soul",
+        "Ratatouille"
+      ],
+      "correct": 3,
+      "explanation": "Remy é o rato protagonista de Ratatouille.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-13",
+      "category": "Cinema e TV",
+      "question": "Qual personagem de Toy Story é um patrulheiro espacial de brinquedo?",
+      "choices": [
+        "Buzz Lightyear",
+        "Woody",
+        "Rex",
+        "Slinky"
+      ],
+      "correct": 0,
+      "explanation": "Buzz Lightyear chega como novo brinquedo de Andy.",
+      "pack": "screen"
+    },
+    {
+      "id": "qpop1-screen-14",
+      "category": "Cinema e TV",
+      "question": "Qual é o nome do capitão interpretado por Johnny Depp em Piratas do Caribe?",
+      "choices": [
+        "Davy Jones",
+        "Jack Sparrow",
+        "Hector Barbossa",
+        "Will Turner"
+      ],
+      "correct": 1,
+      "explanation": "Johnny Depp interpreta o capitão Jack Sparrow.",
+      "pack": "screen"
+    }
+  ],
+  "truefalse": [
+    {
+      "id": "tf001",
+      "category": "Geografia",
+      "statement": "O Brasil fica na América do Sul.",
+      "correct": true,
+      "explanation": "O Brasil faz parte da América do Sul."
+    },
+    {
+      "id": "tf002",
+      "category": "Geografia",
+      "statement": "Paris é a capital da Alemanha.",
+      "correct": false,
+      "explanation": "Paris é a capital da França; Berlim é a capital alemã."
+    },
+    {
+      "id": "tf003",
+      "category": "Geografia",
+      "statement": "O oceano Pacífico é maior que o Atlântico.",
+      "correct": true,
+      "explanation": "O Pacífico tem área maior que o Atlântico."
+    },
+    {
+      "id": "tf004",
+      "category": "Geografia",
+      "statement": "O Saara fica na Oceania.",
+      "correct": false,
+      "explanation": "O Saara fica no norte da África."
+    },
+    {
+      "id": "tf005",
+      "category": "Geografia",
+      "statement": "O Japão é um país insular.",
+      "correct": true,
+      "explanation": "O Japão é um arquipélago no leste da Ásia."
+    },
+    {
+      "id": "tf006",
+      "category": "Geografia",
+      "statement": "Buenos Aires é a capital do Chile.",
+      "correct": false,
+      "explanation": "Buenos Aires é a capital argentina; Santiago é a capital chilena."
+    },
+    {
+      "id": "tf007",
+      "category": "Brasil",
+      "statement": "Brasília é a capital do Brasil.",
+      "correct": true,
+      "explanation": "Brasília tornou-se capital em 1960."
+    },
+    {
+      "id": "tf008",
+      "category": "Brasil",
+      "statement": "O estado do Acre fica na Região Sul.",
+      "correct": false,
+      "explanation": "O Acre fica na Região Norte."
+    },
+    {
+      "id": "tf009",
+      "category": "Brasil",
+      "statement": "O real é a moeda oficial brasileira.",
+      "correct": true,
+      "explanation": "O real é a moeda do Brasil desde 1994."
+    },
+    {
+      "id": "tf010",
+      "category": "Brasil",
+      "statement": "São Paulo e Rio de Janeiro são estados brasileiros.",
+      "correct": true,
+      "explanation": "Ambos são estados da Região Sudeste."
+    },
+    {
+      "id": "tf011",
+      "category": "Brasil",
+      "statement": "A cidade de Manaus fica no litoral brasileiro.",
+      "correct": false,
+      "explanation": "Manaus fica no interior do Amazonas, às margens do rio Negro."
+    },
+    {
+      "id": "tf012",
+      "category": "Brasil",
+      "statement": "O samba é uma manifestação musical brasileira.",
+      "correct": true,
+      "explanation": "O samba integra a cultura musical brasileira."
+    },
+    {
+      "id": "tf013",
+      "category": "Ciência",
+      "statement": "O Sol é uma estrela.",
+      "correct": true,
+      "explanation": "O Sol é a estrela central do Sistema Solar."
+    },
+    {
+      "id": "tf014",
+      "category": "Ciência",
+      "statement": "A Lua produz luz própria como uma estrela.",
+      "correct": false,
+      "explanation": "A Lua reflete a luz recebida principalmente do Sol."
+    },
+    {
+      "id": "tf015",
+      "category": "Ciência",
+      "statement": "A água pode existir em três estados físicos comuns.",
+      "correct": true,
+      "explanation": "Gelo, água líquida e vapor são exemplos."
+    },
+    {
+      "id": "tf016",
+      "category": "Ciência",
+      "statement": "O som se propaga no vácuo do mesmo modo que no ar.",
+      "correct": false,
+      "explanation": "O som necessita de um meio material para se propagar."
+    },
+    {
+      "id": "tf017",
+      "category": "Ciência",
+      "statement": "O coração participa do sistema circulatório.",
+      "correct": true,
+      "explanation": "O coração bombeia sangue pelo corpo."
+    },
+    {
+      "id": "tf018",
+      "category": "Ciência",
+      "statement": "Marte é o planeta mais próximo do Sol.",
+      "correct": false,
+      "explanation": "Mercúrio é o planeta mais próximo do Sol."
+    },
+    {
+      "id": "tf019",
+      "category": "Ciência",
+      "statement": "A fotossíntese utiliza energia da luz.",
+      "correct": true,
+      "explanation": "A luz é uma fonte de energia para a fotossíntese."
+    },
+    {
+      "id": "tf020",
+      "category": "Ciência",
+      "statement": "Os seres humanos têm quatro pulmões.",
+      "correct": false,
+      "explanation": "Os seres humanos normalmente têm dois pulmões."
+    },
+    {
+      "id": "tf021",
+      "category": "Natureza",
+      "statement": "Uma borboleta passa pela fase de lagarta.",
+      "correct": true,
+      "explanation": "A lagarta é uma fase do ciclo de vida das borboletas."
+    },
+    {
+      "id": "tf022",
+      "category": "Natureza",
+      "statement": "Polvos têm seis braços.",
+      "correct": false,
+      "explanation": "Polvos possuem oito braços."
+    },
+    {
+      "id": "tf023",
+      "category": "Natureza",
+      "statement": "Morcegos são mamíferos.",
+      "correct": true,
+      "explanation": "Morcegos amamentam seus filhotes."
+    },
+    {
+      "id": "tf024",
+      "category": "Natureza",
+      "statement": "Pinguins vivem apenas no Polo Norte.",
+      "correct": false,
+      "explanation": "Pinguins vivem no hemisfério sul, não no Polo Norte."
+    },
+    {
+      "id": "tf025",
+      "category": "Natureza",
+      "statement": "Abelhas podem participar da polinização.",
+      "correct": true,
+      "explanation": "Abelhas transportam pólen entre flores."
+    },
+    {
+      "id": "tf026",
+      "category": "Natureza",
+      "statement": "Peixes respiram principalmente por pulmões.",
+      "correct": false,
+      "explanation": "A maioria dos peixes respira por brânquias."
+    },
+    {
+      "id": "tf027",
+      "category": "Esportes",
+      "statement": "Uma equipe de futebol de campo começa com onze jogadores.",
+      "correct": true,
+      "explanation": "O futebol tradicional tem onze jogadores por equipe."
+    },
+    {
+      "id": "tf028",
+      "category": "Esportes",
+      "statement": "Um saque pode iniciar um ponto no tênis.",
+      "correct": true,
+      "explanation": "O saque inicia o ponto no tênis."
+    },
+    {
+      "id": "tf029",
+      "category": "Esportes",
+      "statement": "No basquete, o objetivo é acertar uma cesta.",
+      "correct": true,
+      "explanation": "Os jogadores tentam lançar a bola no aro."
+    },
+    {
+      "id": "tf030",
+      "category": "Esportes",
+      "statement": "O vôlei usa raquetes para rebater a bola.",
+      "correct": false,
+      "explanation": "O vôlei é jogado principalmente com as mãos e braços."
+    },
+    {
+      "id": "tf031",
+      "category": "Esportes",
+      "statement": "A natação acontece sempre em uma pista de atletismo.",
+      "correct": false,
+      "explanation": "A natação é realizada na água."
+    },
+    {
+      "id": "tf032",
+      "category": "Esportes",
+      "statement": "O judô utiliza o conceito de ippon.",
+      "correct": true,
+      "explanation": "Ippon pode decidir a luta no judô."
+    },
+    {
+      "id": "tf033",
+      "category": "Cotidiano",
+      "statement": "Uma geladeira serve para manter alimentos frios.",
+      "correct": true,
+      "explanation": "Geladeiras reduzem a temperatura dos alimentos."
+    },
+    {
+      "id": "tf034",
+      "category": "Cotidiano",
+      "statement": "Um relógio mede diretamente a pressão arterial.",
+      "correct": false,
+      "explanation": "Relógios medem tempo; medidores específicos aferem pressão."
+    },
+    {
+      "id": "tf035",
+      "category": "Cotidiano",
+      "statement": "Uma biblioteca pode emprestar livros.",
+      "correct": true,
+      "explanation": "O empréstimo de livros é um serviço de bibliotecas."
+    },
+    {
+      "id": "tf036",
+      "category": "Cotidiano",
+      "statement": "Uma bússola é usada principalmente para medir temperatura.",
+      "correct": false,
+      "explanation": "Uma bússola ajuda na orientação por direção."
+    },
+    {
+      "id": "tf037",
+      "category": "Gastronomia",
+      "statement": "O brigadeiro é um doce brasileiro.",
+      "correct": true,
+      "explanation": "O brigadeiro é um doce popular no Brasil."
+    },
+    {
+      "id": "tf038",
+      "category": "Gastronomia",
+      "statement": "Guacamole tradicional usa abacate.",
+      "correct": true,
+      "explanation": "Abacate é base da receita."
+    },
+    {
+      "id": "tf039",
+      "category": "Gastronomia",
+      "statement": "Pipoca é feita de grãos de trigo.",
+      "correct": false,
+      "explanation": "Pipoca é feita de milho."
+    },
+    {
+      "id": "tf040",
+      "category": "Gastronomia",
+      "statement": "A banana é uma fruta.",
+      "correct": true,
+      "explanation": "Banana é um fruto comestível."
+    },
+    {
+      "id": "tf041",
+      "category": "Tecnologia",
+      "statement": "O atalho Ctrl+C normalmente copia um texto selecionado.",
+      "correct": true,
+      "explanation": "Ctrl+C costuma copiar a seleção."
+    },
+    {
+      "id": "tf042",
+      "category": "Tecnologia",
+      "statement": "O formato MP3 é usado principalmente para imagens.",
+      "correct": false,
+      "explanation": "MP3 é associado a áudio."
+    },
+    {
+      "id": "tf043",
+      "category": "Tecnologia",
+      "statement": "Um roteador pode conectar dispositivos à rede.",
+      "correct": true,
+      "explanation": "Roteadores fazem parte da infraestrutura de redes."
+    },
+    {
+      "id": "tf044",
+      "category": "Tecnologia",
+      "statement": "Um mouse é um tipo de impressora.",
+      "correct": false,
+      "explanation": "O mouse é um dispositivo de entrada."
+    },
+    {
+      "id": "tf045",
+      "category": "Games",
+      "statement": "Sonic é um ouriço azul.",
+      "correct": true,
+      "explanation": "Sonic é o mascote clássico da Sega."
+    },
+    {
+      "id": "tf046",
+      "category": "Games",
+      "statement": "Mario é conhecido por usar um boné vermelho.",
+      "correct": true,
+      "explanation": "Mario costuma ser retratado com boné vermelho."
+    },
+    {
+      "id": "tf047",
+      "category": "Games",
+      "statement": "Pikachu é um Pokémon do tipo Água.",
+      "correct": false,
+      "explanation": "Pikachu é do tipo Elétrico."
+    },
+    {
+      "id": "tf048",
+      "category": "Games",
+      "statement": "Minecraft é conhecido por blocos de construção.",
+      "correct": true,
+      "explanation": "Minecraft tem um mundo baseado em blocos."
+    },
+    {
+      "id": "tf049",
+      "category": "Cultura Pop",
+      "statement": "Mickey Mouse é um personagem da Disney.",
+      "correct": true,
+      "explanation": "Mickey Mouse é personagem da Disney."
+    },
+    {
+      "id": "tf050",
+      "category": "Cultura Pop",
+      "statement": "O personagem Woody de Toy Story é um dinossauro.",
+      "correct": false,
+      "explanation": "Woody é um boneco cowboy."
+    },
+    {
+      "id": "tf051",
+      "category": "Cultura Pop",
+      "statement": "Bob Esponja mora em um abacaxi no fundo do mar.",
+      "correct": true,
+      "explanation": "Esse é o lar do personagem na animação."
+    },
+    {
+      "id": "tf052",
+      "category": "Cultura Pop",
+      "statement": "Scooby-Doo é um gato detetive.",
+      "correct": false,
+      "explanation": "Scooby-Doo é um cachorro."
+    },
+    {
+      "id": "tf053",
+      "category": "Música",
+      "statement": "Piano é um instrumento de teclas.",
+      "correct": true,
+      "explanation": "O piano possui teclas brancas e pretas."
+    },
+    {
+      "id": "tf054",
+      "category": "Música",
+      "statement": "Frevo é um gênero musical associado a Pernambuco.",
+      "correct": true,
+      "explanation": "O frevo é tradicionalmente associado ao estado de Pernambuco."
+    },
+    {
+      "id": "tf055",
+      "category": "Música",
+      "statement": "O grupo Queen gravou Bohemian Rhapsody.",
+      "correct": true,
+      "explanation": "É uma das músicas mais famosas do Queen."
+    },
+    {
+      "id": "tf056",
+      "category": "Música",
+      "statement": "Uma guitarra é sempre um instrumento de sopro.",
+      "correct": false,
+      "explanation": "Guitarras são instrumentos de cordas."
+    },
+    {
+      "id": "tf057",
+      "category": "História",
+      "statement": "As pirâmides de Gizé ficam no Egito.",
+      "correct": true,
+      "explanation": "As pirâmides de Gizé foram erguidas no Egito Antigo."
+    },
+    {
+      "id": "tf058",
+      "category": "História",
+      "statement": "O ano de 1901 pertence ao século XIX.",
+      "correct": false,
+      "explanation": "1901 é o primeiro ano do século XX."
+    },
+    {
+      "id": "tf059",
+      "category": "História",
+      "statement": "A cidade antiga de Pompeia foi afetada pela erupção do Vesúvio.",
+      "correct": true,
+      "explanation": "A erupção do Vesúvio ocorreu em 79 d.C."
+    },
+    {
+      "id": "tf060",
+      "category": "História",
+      "statement": "Os romanos construíram a Torre Eiffel na Antiguidade.",
+      "correct": false,
+      "explanation": "A Torre Eiffel foi inaugurada em Paris em 1889."
+    },
+    {
+      "id": "tfv7-001",
+      "category": "Astronomia",
+      "statement": "A Lua é um satélite natural da Terra.",
+      "correct": true,
+      "explanation": "A Lua é o satélite natural mais conhecido da Terra."
+    },
+    {
+      "id": "tfv7-002",
+      "category": "Geografia",
+      "statement": "O Japão fica na América do Sul.",
+      "correct": false,
+      "explanation": "O Japão fica na Ásia Oriental."
+    },
+    {
+      "id": "tfv7-003",
+      "category": "Natureza",
+      "statement": "Abelhas contribuem para a polinização.",
+      "correct": true,
+      "explanation": "Abelhas transportam pólen entre flores enquanto se alimentam."
+    },
+    {
+      "id": "tfv7-004",
+      "category": "Música",
+      "statement": "O violino é um instrumento de sopro.",
+      "correct": false,
+      "explanation": "O violino é um instrumento de cordas."
+    },
+    {
+      "id": "tfv7-005",
+      "category": "Ciência",
+      "statement": "O gelo é água no estado sólido.",
+      "correct": true,
+      "explanation": "A água congela e passa para o estado sólido."
+    },
+    {
+      "id": "tfv7-006",
+      "category": "Saúde",
+      "statement": "O coração faz parte do sistema circulatório.",
+      "correct": true,
+      "explanation": "O coração bombeia sangue pelos vasos sanguíneos."
+    },
+    {
+      "id": "tfv7-007",
+      "category": "Geral",
+      "statement": "Uma semana tem oito dias.",
+      "correct": false,
+      "explanation": "A semana possui sete dias."
+    },
+    {
+      "id": "tfv7-008",
+      "category": "Geografia",
+      "statement": "A cidade de Roma fica na Itália.",
+      "correct": true,
+      "explanation": "Roma é a capital italiana."
+    },
+    {
+      "id": "tfv7-009",
+      "category": "Esportes",
+      "statement": "O basquete é normalmente jogado com os pés.",
+      "correct": false,
+      "explanation": "No basquete, o controle da bola é principalmente com as mãos."
+    },
+    {
+      "id": "tfv7-010",
+      "category": "Geografia",
+      "statement": "O oceano Pacífico é maior que o Atlântico.",
+      "correct": true,
+      "explanation": "O Pacífico é o maior oceano da Terra em área."
+    },
+    {
+      "id": "tfv7-011",
+      "category": "Matemática",
+      "statement": "Um quadrado tem cinco lados.",
+      "correct": false,
+      "explanation": "Quadrados são quadriláteros e possuem quatro lados."
+    },
+    {
+      "id": "tfv7-012",
+      "category": "Games",
+      "statement": "Mario e Luigi aparecem na mesma franquia de jogos.",
+      "correct": true,
+      "explanation": "Os dois personagens são irmãos na série Super Mario."
+    },
+    {
+      "id": "tfv7-013",
+      "category": "Natureza",
+      "statement": "A borboleta passa por metamorfose.",
+      "correct": true,
+      "explanation": "Borboletas passam por ovo, larva, pupa e adulto."
+    },
+    {
+      "id": "tfv7-014",
+      "category": "Gastronomia",
+      "statement": "O abacaxi cresce em uma árvore alta.",
+      "correct": false,
+      "explanation": "O abacaxizeiro é uma planta herbácea de porte baixo."
+    },
+    {
+      "id": "tfv7-015",
+      "category": "Ciência",
+      "statement": "O termômetro é usado para medir temperatura.",
+      "correct": true,
+      "explanation": "Termômetros medem temperatura de materiais e ambientes."
+    },
+    {
+      "id": "tfv7-016",
+      "category": "Esportes",
+      "statement": "O futebol tem quatro tempos regulares de 20 minutos.",
+      "correct": false,
+      "explanation": "Uma partida tradicional de futebol tem dois tempos de 45 minutos."
+    },
+    {
+      "id": "tfv7-017",
+      "category": "Artes",
+      "statement": "A pintura com aquarela normalmente usa água.",
+      "correct": true,
+      "explanation": "A aquarela é uma tinta diluída em água."
+    },
+    {
+      "id": "tfv7-018",
+      "category": "Tecnologia",
+      "statement": "O Windows é um tipo de navegador de internet.",
+      "correct": false,
+      "explanation": "Windows é um sistema operacional."
+    },
+    {
+      "id": "tfv7-019",
+      "category": "Brasil",
+      "statement": "O Brasil tem fronteira terrestre com o Chile.",
+      "correct": false,
+      "explanation": "Brasil e Chile não compartilham fronteira terrestre."
+    },
+    {
+      "id": "tfv7-020",
+      "category": "Natureza",
+      "statement": "O abacate é considerado um fruto.",
+      "correct": true,
+      "explanation": "Botanicamente, abacate é o fruto do abacateiro."
+    },
+    {
+      "id": "tfv8-001",
+      "category": "Matemática",
+      "statement": "Um hexágono tem seis lados.",
+      "correct": true,
+      "explanation": "Hexa significa seis; hexágonos possuem seis lados."
+    },
+    {
+      "id": "tfv8-002",
+      "category": "Astronomia",
+      "statement": "A Lua emite luz visível própria como uma estrela.",
+      "correct": false,
+      "explanation": "A luz que vemos na Lua é principalmente a luz solar refletida."
+    },
+    {
+      "id": "tfv8-003",
+      "category": "Natureza",
+      "statement": "Insetos adultos geralmente possuem três pares de patas.",
+      "correct": true,
+      "explanation": "Insetos possuem seis pernas na fase adulta."
+    },
+    {
+      "id": "tfv8-004",
+      "category": "Astronomia",
+      "statement": "Júpiter é o maior planeta do Sistema Solar.",
+      "correct": true,
+      "explanation": "Júpiter tem o maior diâmetro e a maior massa entre os oito planetas."
+    },
+    {
+      "id": "tfv8-005",
+      "category": "Tecnologia",
+      "statement": "A extensão .jpg costuma identificar arquivos de imagem.",
+      "correct": true,
+      "explanation": "JPG/JPEG são formatos populares para fotografias e imagens."
+    },
+    {
+      "id": "tfv8-006",
+      "category": "Natureza",
+      "statement": "Pinguins vivem naturalmente apenas no Polo Norte.",
+      "correct": false,
+      "explanation": "Pinguins habitam o Hemisfério Sul, incluindo a Antártida."
+    },
+    {
+      "id": "tfv8-007",
+      "category": "Esportes",
+      "statement": "No basquete, um lance livre convertido vale três pontos.",
+      "correct": false,
+      "explanation": "Um lance livre convertido vale um ponto."
+    },
+    {
+      "id": "tfv8-008",
+      "category": "Gastronomia",
+      "statement": "O pão é normalmente preparado por um processo de cozimento ou forno.",
+      "correct": true,
+      "explanation": "A maior parte dos pães tradicionais é assada."
+    },
+    {
+      "id": "tfv8-009",
+      "category": "História",
+      "statement": "Salvador já foi capital do Brasil.",
+      "correct": true,
+      "explanation": "Salvador foi a primeira capital do Brasil colonial."
+    },
+    {
+      "id": "tfv8-010",
+      "category": "Matemática",
+      "statement": "Todo quadrado tem quatro lados de mesmo comprimento.",
+      "correct": true,
+      "explanation": "Os quatro lados de um quadrado são congruentes."
+    },
+    {
+      "id": "tfv8-011",
+      "category": "Natureza",
+      "statement": "Golfinhos respiram por brânquias, como os peixes.",
+      "correct": false,
+      "explanation": "Golfinhos têm pulmões e precisam subir à superfície para respirar."
+    },
+    {
+      "id": "tfv8-012",
+      "category": "Ciência",
+      "statement": "O som se propaga no vácuo da mesma forma que no ar.",
+      "correct": false,
+      "explanation": "O som precisa de um meio material para se propagar."
+    },
+    {
+      "id": "tfpop1-lotr-01",
+      "category": "Cultura Pop",
+      "statement": "Gimli e Legolas integram a Sociedade do Anel.",
+      "correct": true,
+      "explanation": "O anão Gimli e o elfo Legolas fazem parte dos nove integrantes.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-02",
+      "category": "Cultura Pop",
+      "statement": "Frodo é filho de Aragorn.",
+      "correct": false,
+      "explanation": "Frodo é filho de Drogo Bolseiro e Primula Brandebuque.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-03",
+      "category": "Cultura Pop",
+      "statement": "Gandalf enfrenta um Balrog em Moria.",
+      "correct": true,
+      "explanation": "O combate acontece na ponte de Khazad-dûm.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-04",
+      "category": "Cultura Pop",
+      "statement": "O Um Anel foi forjado em Rohan.",
+      "correct": false,
+      "explanation": "Sauron forjou o Um Anel na Montanha da Perdição, em Mordor.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-05",
+      "category": "Cultura Pop",
+      "statement": "Smaug aparece na história de O Hobbit.",
+      "correct": true,
+      "explanation": "O dragão ocupa Erebor e seu tesouro.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-06",
+      "category": "Cultura Pop",
+      "statement": "Boromir e Faramir são irmãos.",
+      "correct": true,
+      "explanation": "Ambos são filhos de Denethor.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-07",
+      "category": "Cultura Pop",
+      "statement": "Sauron integra a Sociedade do Anel.",
+      "correct": false,
+      "explanation": "Sauron é o antagonista que busca recuperar o Anel.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-lotr-08",
+      "category": "Cultura Pop",
+      "statement": "O Condado é conhecido como terra dos hobbits.",
+      "correct": true,
+      "explanation": "O Condado abriga várias comunidades de hobbits.",
+      "pack": "lotr"
+    },
+    {
+      "id": "tfpop1-hp-01",
+      "category": "Cultura Pop",
+      "statement": "Hermione Granger e Ron Weasley são amigos de Harry desde o primeiro livro.",
+      "correct": true,
+      "explanation": "Os três se tornam amigos durante o primeiro ano em Hogwarts.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-02",
+      "category": "Cultura Pop",
+      "statement": "Draco Malfoy pertence à Grifinória.",
+      "correct": false,
+      "explanation": "Draco é selecionado para a Sonserina.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-03",
+      "category": "Cultura Pop",
+      "statement": "O Pomo de Ouro é uma bola usada no Quadribol.",
+      "correct": true,
+      "explanation": "O Pomo de Ouro é procurado pelos apanhadores.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-04",
+      "category": "Cultura Pop",
+      "statement": "A professora McGonagall ensina Poções no primeiro livro.",
+      "correct": false,
+      "explanation": "McGonagall ensina Transfiguração; Snape ensina Poções.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-05",
+      "category": "Cultura Pop",
+      "statement": "Dobby é um elfo doméstico.",
+      "correct": true,
+      "explanation": "Dobby é um elfo doméstico que conquista a liberdade.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-06",
+      "category": "Cultura Pop",
+      "statement": "A Capa da Invisibilidade integra as Relíquias da Morte.",
+      "correct": true,
+      "explanation": "As outras duas são a Varinha das Varinhas e a Pedra da Ressurreição.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-07",
+      "category": "Cultura Pop",
+      "statement": "Alohomora é o feitiço usado para acender a ponta da varinha.",
+      "correct": false,
+      "explanation": "Alohomora é usado para abrir fechaduras; Lumos produz luz.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-hp-08",
+      "category": "Cultura Pop",
+      "statement": "Cedrico Diggory representa Hogwarts no Torneio Tribruxo.",
+      "correct": true,
+      "explanation": "Cedrico é escolhido pelo Cálice de Fogo; Harry acaba como quarto campeão.",
+      "pack": "hp"
+    },
+    {
+      "id": "tfpop1-marvel-01",
+      "category": "Cultura Pop",
+      "statement": "Tony Stark utiliza armaduras tecnológicas para atuar como Homem de Ferro.",
+      "correct": true,
+      "explanation": "As armaduras são parte central de suas habilidades.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-02",
+      "category": "Cultura Pop",
+      "statement": "Thor é originário de Wakanda no MCU.",
+      "correct": false,
+      "explanation": "Thor vem de Asgard; Wakanda é associada ao Pantera Negra.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-03",
+      "category": "Cultura Pop",
+      "statement": "Rocket integra os Guardiões da Galáxia.",
+      "correct": true,
+      "explanation": "Rocket participa da equipe desde o primeiro filme.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-04",
+      "category": "Cultura Pop",
+      "statement": "Steve Rogers e Bucky Barnes eram amigos antes da Segunda Guerra Mundial.",
+      "correct": true,
+      "explanation": "Os dois são apresentados como amigos de longa data.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-05",
+      "category": "Cultura Pop",
+      "statement": "Scott Lang é conhecido como Gavião Arqueiro.",
+      "correct": false,
+      "explanation": "Scott Lang é o Homem-Formiga; Clint Barton é Gavião Arqueiro.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-06",
+      "category": "Cultura Pop",
+      "statement": "Ultron é o antagonista central de Vingadores: Era de Ultron.",
+      "correct": true,
+      "explanation": "Ultron é a inteligência artificial rebelde do filme.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-07",
+      "category": "Cultura Pop",
+      "statement": "Wanda Maximoff é conhecida como Feiticeira Escarlate.",
+      "correct": true,
+      "explanation": "O título é confirmado na série WandaVision.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-marvel-08",
+      "category": "Cultura Pop",
+      "statement": "O primeiro Homem de Ferro do MCU foi lançado depois de Vingadores (2012).",
+      "correct": false,
+      "explanation": "Homem de Ferro foi lançado em 2008, antes de Vingadores.",
+      "pack": "marvel"
+    },
+    {
+      "id": "tfpop1-anime-01",
+      "category": "Cultura Pop",
+      "statement": "Sanji é o cozinheiro dos Chapéus de Palha em One Piece.",
+      "correct": true,
+      "explanation": "Sanji ocupa a função de cozinheiro da tripulação.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-02",
+      "category": "Cultura Pop",
+      "statement": "Em Naruto, Sakura pertence ao clã Uchiha por nascimento.",
+      "correct": false,
+      "explanation": "Sakura nasce com o sobrenome Haruno.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-03",
+      "category": "Cultura Pop",
+      "statement": "Piccolo é um namekuseijin em Dragon Ball.",
+      "correct": true,
+      "explanation": "Piccolo pertence ao povo do planeta Namekusei.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-04",
+      "category": "Cultura Pop",
+      "statement": "Nezuko é a irmã de Tanjiro em Demon Slayer.",
+      "correct": true,
+      "explanation": "A relação entre os irmãos move a história.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-05",
+      "category": "Cultura Pop",
+      "statement": "Light Yagami é conhecido pelo codinome Kira em Death Note.",
+      "correct": true,
+      "explanation": "Kira é o nome atribuído ao assassino que usa o caderno.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-06",
+      "category": "Cultura Pop",
+      "statement": "Pikachu é um Pokémon do tipo Fogo.",
+      "correct": false,
+      "explanation": "Pikachu pertence ao tipo Elétrico.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-07",
+      "category": "Cultura Pop",
+      "statement": "Levi é irmão biológico de Mikasa em Attack on Titan.",
+      "correct": false,
+      "explanation": "Ambos pertencem ao clã Ackerman, mas não são irmãos.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-08",
+      "category": "Cultura Pop",
+      "statement": "Em Jujutsu Kaisen, Yuji Itadori ingere um dedo de Sukuna.",
+      "correct": true,
+      "explanation": "Esse acontecimento dá início à ligação de Yuji com Sukuna.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-09",
+      "category": "Cultura Pop",
+      "statement": "All Might é um personagem de My Hero Academia.",
+      "correct": true,
+      "explanation": "All Might é o Símbolo da Paz e mentor de Deku.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-anime-10",
+      "category": "Cultura Pop",
+      "statement": "Em One Piece, Chopper é o navegador da tripulação.",
+      "correct": false,
+      "explanation": "Chopper atua como médico; Nami é a navegadora.",
+      "pack": "anime"
+    },
+    {
+      "id": "tfpop1-screen-01",
+      "category": "Cinema e TV",
+      "statement": "Friends acompanha seis amigos que vivem em Nova York.",
+      "correct": true,
+      "explanation": "A comédia é ambientada principalmente em Manhattan.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-02",
+      "category": "Cinema e TV",
+      "statement": "Monica Geller é irmã de Chandler Bing.",
+      "correct": false,
+      "explanation": "Monica é irmã de Ross Geller.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-03",
+      "category": "Cinema e TV",
+      "statement": "Stranger Things começa em uma cidade fictícia chamada Hawkins.",
+      "correct": true,
+      "explanation": "Hawkins, Indiana, é a principal ambientação inicial.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-04",
+      "category": "Cinema e TV",
+      "statement": "Neo toma a pílula azul para descobrir a realidade da Matrix.",
+      "correct": false,
+      "explanation": "Neo escolhe a pílula vermelha.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-05",
+      "category": "Cinema e TV",
+      "statement": "Yoda treina Luke Skywalker em O Império Contra-Ataca.",
+      "correct": true,
+      "explanation": "Luke vai a Dagobah e recebe orientação de Yoda.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-06",
+      "category": "Cinema e TV",
+      "statement": "Woody é um brinquedo de caubói em Toy Story.",
+      "correct": true,
+      "explanation": "Woody é um boneco de xerife inspirado no Velho Oeste.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-07",
+      "category": "Cinema e TV",
+      "statement": "Em Ratatouille, Remy é um gato.",
+      "correct": false,
+      "explanation": "Remy é um rato com grande interesse por gastronomia.",
+      "pack": "screen"
+    },
+    {
+      "id": "tfpop1-screen-08",
+      "category": "Cinema e TV",
+      "statement": "Michael Scott trabalha em uma empresa de papel em The Office (EUA).",
+      "correct": true,
+      "explanation": "Ele gerencia uma filial da Dunder Mifflin.",
+      "pack": "screen"
+    }
+  ]
+}

@@ -1,5 +1,12 @@
 # Política de versões e GitHub Releases — LISTA!
 
+## Pacotes de desenvolvimento
+
+- Usar `dev-pacotes` (ou outra branch `dev-*`) durante a implementação de vários focos. Commits de trabalho não alteram a versão publicada, nem criam tags/releases.
+- `vercel.json` desativa deploy automático nas branches `dev-*`, incluindo previews; não alterar a `main` durante a preparação.
+- Consolidar temas, melhorias de UX e correções no changelog não lançado, testar de forma proporcional e fechar um lote com o dono do projeto.
+- Só após autorização explícita de publicação, escolher a próxima versão beta, atualizar notas e versão e integrar o lote à `main`, que dispara a release/deploy.
+
 ## Versões
 
 O LISTA! permanece em **0.x.y-<alpha|beta|rc>.N**. A versão `1.0.0` requer decisão expressa do dono do projeto.
