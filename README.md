@@ -1,8 +1,8 @@
 # LISTA! — Jogo de memória e desafios
 
-**LISTA! 0.6.0-beta.1 — versão de testes, sem lançamento 1.0.**
+**LISTA! 0.7.0-beta.1 — versão de testes, sem lançamento 1.0.**
 
-786 desafios de listas (704 anteriores preservados + 82 novos), 86 questões de Quiz, 60 afirmações de Verdadeiro/Falso, Relâmpago 60s, Revanche dos Erros, Contexto, Termo, Dueto, Anagrama e ranking global para Sprint/Turbo.
+816 desafios de listas (786 anteriores preservados + 30 novos), 116 questões de Quiz, 80 afirmações de Verdadeiro/Falso, Relâmpago 60s, Revanche dos Erros, Contexto, Termo, Dueto, Anagrama e ranking global para Sprint/Turbo.
 
 ## Arquitetura
 - Interface web: HTML/CSS/JS preservados da versão 4.0; `src/auth-client.js` é empacotado pelo esbuild.
@@ -33,3 +33,15 @@ O jogo sem login continua funcionando offline (contanto que `index.html` seja sa
 ### Notas de revisão editorial
 
 Novas listas abertas apresentam **seleções de respostas**, não listas enciclopédicas exaustivas. Uma resposta plausível ausente pode ser relatada em “Avaliar pergunta”. Perguntas especializadas continuam fora do sorteio popular.
+
+## Atualização 0.7 — experiência de Quiz
+
+- **Sobrevivência**: até 20 perguntas, três vidas; o jogo termina quando as três acabam.
+- **Minhas favoritas**: salva perguntas durante a rodada e permite praticar apenas a seleção pessoal.
+- **Filtros por categoria**: Quiz, verdadeiro/falso, Relâmpago, Sobrevivência, Revanche e Favoritas respeitam a categoria escolhida; se faltar perguntas, a seleção é reduzida ou exibe aviso.
+- **Sequência de dias**: mostra dias consecutivos em que partidas de Quiz foram concluídas.
+- **30 novas listas** com metas flexíveis e temas casuais; **30 perguntas de Quiz e 20 afirmações V/F**, com explicações.
+- **Compatibilidade**: preserva o armazenamento `lista-quiz-beta6`, os 786 IDs antigos e os recordes; importação de backup inclui favoritas e histórico de dias com sanitização.
+- **Ranking global**: continua exclusivamente em Sprint/Turbo, com verificação na API; novos modos continuam locais.
+
+A curadoria de conteúdo é contínua: a seleção de respostas das listas abertas não é exaustiva; o feedback de respostas ausentes permanece disponível.
